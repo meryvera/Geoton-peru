@@ -1,0 +1,18 @@
+127.0.0.1 - - [05/Jun/2026 00:31:01] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 00:31:09] "HEAD /Vulnerabilidad%20Digital%20Peru%202025.html HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 00:31:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 00:31:22] code 404, message File not found
+127.0.0.1 - - [05/Jun/2026 00:31:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [05/Jun/2026 00:31:28] "GET /screenshots/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 00:31:35] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 00:31:39] "GET /Vulnerabilidad%20Digital%20Peru%202025.html HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 00:31:39] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 00:31:39] "GET /data.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 00:32:22] "GET /Vulnerabilidad%20Digital%20Peru%202025.html HTTP/1.1" 304 -
+127.0.0.1 - - [05/Jun/2026 00:32:22] "GET /app.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Jun/2026 00:32:22] "GET /data.json HTTP/1.1" 304 -
+127.0.0.1 - - [05/Jun/2026 00:32:22] "GET /app.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Jun/2026 00:40:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 00:40:55] "GET /app.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Jun/2026 00:40:55] "GET /app.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Jun/2026 00:40:55] "GET /data.json HTTP/1.1" 304 -

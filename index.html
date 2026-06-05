@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Índice de Vulnerabilidad Digital Compuesta — Perú 2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<style>
+  :root{
+    --bg:#F8F9FA; --bar:#0F172A; --card:#FFFFFF;
+    --v5:#DC2626; --v4:#EA580C; --v3:#CA8A04; --v2:#93C5FD; --v1:#E2E8F0;
+    --gold:#F59E0B; --ink:#0F172A; --sub:#64748B; --line:#E2E8F0;
+    --s1:#2563EB; --s2:#059669; --s3:#D97706; --s4:#DC2626;
+    --shadow:0 1px 3px rgba(15,23,42,.10), 0 1px 2px rgba(15,23,42,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:Inter, system-ui, sans-serif;
+    background:#0B1120; color:var(--ink);
+    overflow:hidden; -webkit-font-smoothing:antialiased;
+  }
+  #viewport{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#0B1120;}
+  #stage{
+    width:1440px;height:900px;background:var(--bg);
+    transform-origin:center center;position:relative;
+    display:flex;flex-direction:column;overflow:hidden;
+  }
+
+  /* ───────── TOP BAR ───────── */
+  #topbar{
+    height:60px;flex:0 0 60px;background:var(--bar);color:#fff;
+    display:flex;align-items:center;gap:24px;padding:0 20px;
+  }
+  .tb-title{display:flex;flex-direction:column;gap:2px;min-width:300px}
+  .tb-title h1{font-size:14px;font-weight:600;letter-spacing:-.1px;line-height:1.1}
+  .tb-title p{font-size:11px;font-weight:400;color:#94A3B8;line-height:1.1}
+  .tb-mark{display:flex;align-items:center;gap:9px}
+  .tb-mark .dot{width:9px;height:9px;border-radius:2px;background:var(--gold)}
+  .pillrow{display:flex;gap:6px;margin:0 auto}
+  .pill{
+    font-family:inherit;font-size:12px;font-weight:500;color:#CBD5E1;
+    background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);
+    border-radius:7px;padding:7px 13px;cursor:pointer;
+    transition:all .2s ease;white-space:nowrap;display:flex;align-items:center;gap:7px;
+  }
+  .pill .swatch{width:8px;height:8px;border-radius:50%;opacity:.85}
+  .pill:hover{background:rgba(255,255,255,.12);color:#fff}
+  .pill.active{background:var(--gold);color:#3a2600;border-color:var(--gold);font-weight:600}
+  .pill.active .swatch{opacity:1;box-shadow:0 0 0 2px rgba(58,38,0,.18)}
+  .tb-right{display:flex;align-items:center;gap:10px}
+  .tb-right label{font-size:11px;color:#94A3B8;font-weight:500}
+  select#deptSel{
+    font-family:inherit;font-size:12px;font-weight:500;color:#fff;
+    background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);
+    border-radius:7px;padding:7px 30px 7px 11px;cursor:pointer;appearance:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2394A3B8' stroke-width='2.5'><path d='M6 9l6 6 6-6'/></svg>");
+    background-repeat:no-repeat;background-position:right 9px center;
+    min-width:190px;transition:border-color .2s;
+  }
+  select#deptSel:hover{border-color:rgba(255,255,255,.3)}
+  select#deptSel option{background:#0F172A;color:#fff}
+
+  /* ───────── LAYOUT ───────── */
+  #main{flex:1;display:flex;flex-direction:column;padding:12px 14px;gap:11px;min-height:0}
+  #midrow{flex:1.64;display:flex;gap:12px;min-height:0}
+  #botrow{flex:1;display:flex;gap:12px;min-height:0}
+  .col-map{flex:0 0 55%;display:flex}
+  .col-right{flex:1;display:flex;flex-direction:column;gap:12px;min-height:0}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);position:relative}
+  .card-h{font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--sub);padding:9px 14px 0}
+  .card-h .em{color:var(--ink)}
+
+  /* MAP */
+  #mapCard{flex:1;display:flex;flex-direction:column;padding:0}
+  #mapHead{display:flex;align-items:baseline;justify-content:space-between;padding:11px 14px 0}
+  #mapHead .t{font-size:13px;font-weight:600;color:var(--ink)}
+  #mapHead .v{font-size:11px;color:var(--sub);font-weight:500}
+  #mapWrap{flex:1;position:relative;min-height:0}
+  #mapSvg{width:100%;height:100%;display:block}
+  .dept{stroke:#fff;stroke-width:.6;cursor:pointer;transition:fill .2s ease, stroke .15s, stroke-width .15s}
+  .dept:hover{stroke:#475569;stroke-width:1.1}
+  .dept.sel{stroke:var(--gold);stroke-width:2.4}
+  #legend{display:flex;gap:0;padding:6px 14px 12px;align-items:stretch}
+  .lg{flex:1;display:flex;flex-direction:column;gap:4px}
+  .lg .bar{height:6px;border-radius:2px}
+  .lg .lab{font-size:9px;color:var(--sub);font-weight:500;line-height:1.05}
+  .lg .rng{font-size:9px;color:#94A3B8;font-family:'IBM Plex Mono',monospace}
+
+  /* KPI */
+  #kpiCard{flex:0 0 auto;padding:8px 13px 9px}
+  #kpiGrid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:6px}
+  .kpi{background:#FBFCFD;border:1px solid var(--line);border-radius:8px;padding:7px 9px}
+  .kpi .num{font-size:25px;font-weight:700;color:var(--ink);line-height:1;letter-spacing:-1px;font-variant-numeric:tabular-nums}
+  .kpi .lab{font-size:10px;font-weight:400;color:var(--sub);margin-top:5px;line-height:1.18}
+  .kpi .num .u{font-size:17px;font-weight:600;color:var(--sub);margin-left:1px}
+
+  /* SECTOR PROFILE */
+  #secCard{flex:1 1 0;padding:8px 14px 9px;display:flex;flex-direction:column;min-height:128px}
+  #secList{display:flex;flex-direction:column;gap:9px;margin-top:9px;flex:1;justify-content:center;position:relative}
+  .sec{display:grid;grid-template-columns:96px 1fr 46px;align-items:center;gap:10px;transition:opacity .2s}
+  .sec .nm{font-size:12px;font-weight:500;color:var(--ink);display:flex;align-items:center;gap:7px;white-space:nowrap}
+  .sec .nm .sw{width:9px;height:9px;border-radius:50%;flex:0 0 9px}
+  .sec .track{height:11px;background:#EEF2F6;border-radius:6px;position:relative;overflow:visible}
+  .sec .fill{height:100%;border-radius:6px;transition:width .2s ease;position:relative}
+  .sec .avg{position:absolute;top:-4px;bottom:-4px;width:2px;background:repeating-linear-gradient(#94A3B8 0 3px, transparent 3px 6px);transition:left .2s ease}
+  .sec .val{font-size:12.5px;font-weight:600;color:var(--ink);text-align:right;font-variant-numeric:tabular-nums}
+  .sec.dim{opacity:.42}
+  .sec.hot .nm{font-weight:700}
+  #secNote{font-size:9px;color:#94A3B8;margin-top:7px;display:flex;align-items:center;gap:6px}
+  .sec-hint{font-size:9px;color:#94A3B8;text-transform:none;letter-spacing:0;font-weight:500;display:flex;align-items:center;gap:5px;white-space:nowrap;flex:0 0 auto}
+  #secNote .dash{width:16px;height:0;border-top:2px dashed #94A3B8;display:inline-block}
+
+  /* DISTRICTS */
+  #distCard{flex:0 0 auto;padding:8px 14px 9px}
+  table.dist{width:100%;border-collapse:collapse;margin-top:6px;font-size:11.5px}
+  table.dist th{font-size:10px;font-weight:600;color:var(--sub);text-transform:uppercase;letter-spacing:.03em;text-align:left;padding:0 6px 6px 0;border-bottom:1px solid var(--line)}
+  table.dist th.c,table.dist td.c{text-align:center;width:26px;padding-left:0;padding-right:0}
+  table.dist th.r,table.dist td.r{text-align:right;width:48px}
+  table.dist td{padding:4.5px 6px 4.5px 0;border-bottom:1px solid #F1F5F9;color:var(--ink)}
+  table.dist tr:last-child td{border-bottom:none}
+  table.dist td.nm{font-weight:500}
+  table.dist td.nm small{color:var(--sub);font-weight:400}
+  table.dist td.iv{font-weight:700;font-variant-numeric:tabular-nums;text-align:right}
+  .dotc{width:9px;height:9px;border-radius:50%;display:inline-block}
+  #distMsg{font-size:12px;color:var(--sub);padding:24px 4px;text-align:center;line-height:1.5}
+
+  /* SCATTER + RANKING */
+  #scatCard{flex:1;display:flex;flex-direction:column;padding:11px 14px 10px;min-height:0}
+  #scatWrap{flex:1;min-height:0;position:relative}
+  #scatSvg{width:100%;height:100%;display:block}
+  .axlab{font-size:11px;fill:var(--sub);font-weight:500}
+  .axtick{font-size:9.5px;fill:#94A3B8;font-family:'IBM Plex Mono',monospace}
+  .gridln{stroke:#EEF2F6;stroke-width:1}
+  .quad{font-size:9.5px;fill:#94A3B8;font-weight:500}
+  .pt{cursor:pointer;transition:r .2s, stroke-width .15s}
+  .pt.sel{stroke:var(--gold);stroke-width:2.5}
+  .ptlab{font-size:9px;fill:#475569;font-weight:600;pointer-events:none}
+  .trend{stroke:#0F172A;stroke-width:1.3;stroke-dasharray:5 4;opacity:.5}
+
+  #rankCard{flex:1;display:flex;flex-direction:column;padding:11px 14px 8px;min-height:0}
+  #rankWrap{flex:1;min-height:0;position:relative}
+  #rankSvg{width:100%;height:100%;display:block}
+  .rk-row{cursor:pointer}
+  .rk-bar{transition:opacity .15s}
+  .rk-row:hover .rk-bar{opacity:.78}
+  .rk-nm{font-size:9.5px;fill:var(--ink);font-weight:500;dominant-baseline:middle}
+  .rk-val{font-size:9.5px;fill:var(--sub);font-weight:600;dominant-baseline:middle;font-variant-numeric:tabular-nums}
+  .rk-sel .rk-frame{stroke:var(--gold);stroke-width:1.8}
+  .rk-sel .rk-nm{font-weight:700;fill:#0F172A}
+
+  /* legend region for scatter */
+  .scleg{display:flex;gap:13px;position:absolute;top:8px;right:6px}
+  .scleg .it{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--sub);font-weight:500}
+  .scleg .it .d{width:8px;height:8px;border-radius:50%}
+
+  /* TOOLTIP */
+  #tip{
+    position:fixed;pointer-events:none;z-index:50;opacity:0;transition:opacity .12s;
+    background:#0F172A;color:#fff;border-radius:8px;padding:9px 11px;font-size:11px;
+    box-shadow:0 8px 24px rgba(0,0,0,.28);min-width:150px;border:1px solid rgba(255,255,255,.08);
+  }
+  #tip .tt{font-weight:700;font-size:12px;margin-bottom:5px;display:flex;align-items:center;gap:6px}
+  #tip .tt .sw{width:9px;height:9px;border-radius:3px}
+  #tip .row{display:flex;justify-content:space-between;gap:16px;color:#CBD5E1;line-height:1.55}
+  #tip .row b{color:#fff;font-weight:600;font-variant-numeric:tabular-nums}
+
+  .resetbtn{
+    font-family:inherit;font-size:10.5px;font-weight:600;color:var(--gold);
+    background:rgba(245,158,11,.10);border:1px solid rgba(245,158,11,.32);
+    border-radius:6px;padding:4px 9px;cursor:pointer;transition:all .15s;
+  }
+  .resetbtn:hover{background:rgba(245,158,11,.2)}
+</style>
+</head>
+<body>
+<div id="viewport">
+  <div id="stage">
+    <!-- TOP BAR -->
+    <header id="topbar">
+      <div class="tb-mark">
+        <span class="dot"></span>
+        <div class="tb-title">
+          <h1>Vulnerabilidad Digital — Perú 2025</h1>
+          <p>Diagnóstico de capacidad de entrega de servicios digitales del Estado</p>
+        </div>
+      </div>
+      <nav class="pillrow" id="pillrow"></nav>
+      <div class="tb-right">
+        <label for="deptSel">Departamento</label>
+        <select id="deptSel"></select>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <div id="main">
+      <!-- MIDDLE -->
+      <div id="midrow">
+        <div class="col-map">
+          <div class="card" id="mapCard">
+            <div id="mapHead">
+              <span class="t" id="mapTitle">Índice de Vulnerabilidad Digital Compuesta</span>
+              <span class="v" id="mapSub">25 departamentos · color = nivel de vulnerabilidad</span>
+            </div>
+            <div id="mapWrap"><svg id="mapSvg"></svg></div>
+            <div id="legend"></div>
+          </div>
+        </div>
+        <div class="col-right">
+          <div class="card" id="kpiCard">
+            <div class="card-h" id="kpiHead">Indicadores nacionales</div>
+            <div id="kpiGrid"></div>
+          </div>
+          <div class="card" id="secCard">
+            <div class="card-h" style="display:flex;justify-content:space-between;align-items:center;gap:10px">
+              <span id="secHead">Perfil sectorial — <span class="em">Nacional</span></span>
+              <span class="sec-hint"><span class="dash"></span> promedio nacional</span>
+            </div>
+            <div id="secList"></div>
+          </div>
+          <div class="card" id="distCard">
+            <div class="card-h" style="display:flex;justify-content:space-between;align-items:center">
+              <span id="distHead">Distritos prioritarios — <span class="em">Nacional</span></span>
+            </div>
+            <div id="distBody"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTTOM -->
+      <div id="botrow">
+        <div class="card" id="scatCard">
+          <div class="card-h">Relación vulnerabilidad digital e <span class="em">IDH</span> por departamento</div>
+          <div id="scatWrap">
+            <div class="scleg">
+              <span class="it"><span class="d" style="background:#2563EB"></span>Costa</span>
+              <span class="it"><span class="d" style="background:#059669"></span>Sierra</span>
+              <span class="it"><span class="d" style="background:#D97706"></span>Selva</span>
+            </div>
+            <svg id="scatSvg"></svg>
+          </div>
+        </div>
+        <div class="card" id="rankCard">
+          <div class="card-h" style="display:flex;justify-content:space-between;align-items:center">
+            <span>Ranking de vulnerabilidad digital por <span class="em">departamento</span></span>
+            <button class="resetbtn" id="resetBtn" style="display:none">↺ Vista nacional</button>
+          </div>
+          <div id="rankWrap"><svg id="rankSvg"></svg></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="tip"></div>
+<script src="app.js"></script>
+</body>
+</html>
