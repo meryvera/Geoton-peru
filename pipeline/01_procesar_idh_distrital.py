@@ -3,8 +3,8 @@ Geotón Perú 2026 — Índice de Vulnerabilidad Digital Compuesta (IVDC)
 Preparación y análisis exploratorio del IDH distrital del Perú
 
 Dataset requerido : peru_idh_distrital_atributos.csv  (PNUD 2019)
-Output principal  : idh_distrital_limpio.xlsx  (varias hojas)
-Output secundario : idh_distrital_limpio.csv
+Output principal  : 01-ok-idh_distrital_limpio.xlsx  (varias hojas)
+Output secundario : 01-ok-idh_distrital_limpio.csv
 
 CONVENCIÓN DE QUINTILES (diferente al dataset original):
     quintil_idh = 1  →  IDH más BAJO  (cuartil inferior)
@@ -39,8 +39,8 @@ from openpyxl.utils.dataframe import dataframe_to_rows
 # ─── 0. CONFIGURACIÓN ────────────────────────────────────────────────────────
 
 CSV_DEFAULT = "peru_idh_distrital_atributos.csv"
-OUTPUT_XLSX = "idh_distrital_limpio.xlsx"
-OUTPUT_CSV  = "idh_distrital_limpio.csv"
+OUTPUT_XLSX = "01-ok-idh_distrital_limpio.xlsx"
+OUTPUT_CSV  = "01-ok-idh_distrital_limpio.csv"
 
 # Colores corporativos
 COLOR_HEADER   = "1D6FA8"   # azul oscuro
@@ -304,7 +304,7 @@ def exportar_excel(df_limpio: pd.DataFrame, resultados: dict, ruta: str):
 
     readme_content = [
         ("PROYECTO",    "Geotón Perú 2026 — Índice de Vulnerabilidad Digital Compuesta (IVDC)"),
-        ("ARCHIVO",     "idh_distrital_limpio.xlsx"),
+        ("ARCHIVO",     "01-ok-idh_distrital_limpio.xlsx"),
         ("FUENTE",      "PNUD Perú, 2019. Unidad del Informe sobre Desarrollo Humano."),
         ("FECHA GEN.",  pd.Timestamp.today().strftime("%Y-%m-%d")),
         ("",            ""),
