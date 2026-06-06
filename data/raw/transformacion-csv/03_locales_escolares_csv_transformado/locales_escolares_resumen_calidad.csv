@@ -1,0 +1,17 @@
+﻿control,resultado
+dataset,Locales escolares PRONATEL febrero 2022
+registros_leidos,8720
+campos_originales_dbf,22
+crs,EPSG:4326
+epsg,4326
+encoding_cpg,UTF-8
+tipo_geometria_unico,Point
+geometrias_nulas,0
+geometrias_vacias,0
+geometrias_invalidas,0
+coordenadas_fuera_rango_aproximado_peru,0
+max_diferencia_xcent_vs_geom_lon,0.0
+max_diferencia_ycent_vs_geom_lat,0.0
+filas_duplicadas_exactas_atributos,0
+filas_con_misma_clave_local_ccpp,83
+columnas_con_nulos,1

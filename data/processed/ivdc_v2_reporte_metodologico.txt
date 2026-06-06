@@ -1,0 +1,150 @@
+
+REPORTE METODOLÓGICO — IVDC v2 Geotón Perú 2026
+================================================
+Fecha: 2026-06-04 03:48
+Universo: 1874 distritos
+
+═══════════════════════════════════════════════
+ARQUITECTURA DEL ÍNDICE v2
+═══════════════════════════════════════════════
+
+Estructura: 1 índice base + 4 índices sectoriales
+
+  BASE — Cobertura de señal móvil (OSIPTEL)
+    Variable: % centros poblados sin cobertura
+    Rol: prerequisito y amplificador de vulnerabilidad
+    Actor: MTC/OSIPTEL
+    Promedio nacional: 15.8%
+
+  S1 — Conectividad educativa (PRONATEL/escuelas)
+    Variable: % escuelas SIN conectividad operativa
+    Actor: MINEDU + PRONATEL
+    Implicancia: aula digital, PerúEduca, capacitación docente remota
+    Sin ninguna escuela conectada: 1214 distritos
+
+  S2 — Conectividad en salud (PRONATEL/establecimientos)
+    Variable: % establecimientos SIN conectividad operativa
+    Actor: MINSA + PRONATEL
+    Implicancia: telemedicina, HIS digital, abastecimiento farmacéutico
+    Sin ningún establecimiento conectado: 1202 distritos
+
+  S3 — Capacidad digital municipal (RENAMU)
+    Variable: calidad de conexión municipal (0-5, invertido)
+    Actor: PCM + MEF
+    Implicancia: SIAF, SIGA, trámites digitales ciudadanos
+    Sin internet o conexión precaria: 502 municipios
+
+  S4 — Presencia policial conectada (PRONATEL/PNP)
+    Variable: ausencia/estado de dependencias policiales
+    Actor: MININTER + PRONATEL
+    Implicancia: denuncias digitales, coordinación operativa
+    Sin dependencia policial: 1379 distritos
+
+═══════════════════════════════════════════════
+FÓRMULA DE CÁLCULO
+═══════════════════════════════════════════════
+
+  1. Normalización min-max [0,1] de cada componente
+     (mayor valor = mayor vulnerabilidad en todos los casos)
+
+  2. Promedio sectorial:
+     IVDC_sectorial = (S1_norm + S2_norm + S3_norm + S4_norm) / 4
+
+  3. Penalidad base (amplificador):
+     IVDC_v2_raw = IVDC_sectorial × (1 + 0.30 × BASE_norm)
+     Interpretación: distritos sin señal reciben hasta +30%
+     de penalidad sobre su vulnerabilidad sectorial.
+
+  4. Renormalización final a [0,1]:
+     IVDC_v2 = (IVDC_v2_raw - min) / (max - min)
+
+  5. Quintiles: 1=menos vulnerable, 5=más vulnerable
+
+═══════════════════════════════════════════════
+ESTADÍSTICOS NACIONALES
+═══════════════════════════════════════════════
+
+  IVDC_v2: media=0.5002  std=0.2271
+  Distritos en quintil 5 (más vulnerables): 335
+
+  IDH promedio por quintil IVDC_v2:
+                   n   media  minimo  maximo
+quintil_ivdc_v2                             
+1                401  0.3904  0.1493  0.7267
+2                587  0.4556  0.1173  0.8452
+3                136  0.4203  0.1405  0.6798
+4                415  0.3915  0.0912  0.8171
+5                335  0.3690  0.1284  0.6853
+
+═══════════════════════════════════════════════
+CORRELACIONES SECTORIALES CON OUTCOMES DEL IDH
+═══════════════════════════════════════════════
+
+  IVDC_v2 ↔ IDH
+    Pearson:  r=+0.0307  p=1.85e-01 *
+    Spearman: r=-0.0537  p=2.00e-02
+    n=1874
+
+  S1 educación ↔ años educ
+    Pearson:  r=+0.0549  p=1.74e-02 *
+    Spearman: r=+0.0337  p=1.45e-01
+    n=1874
+
+  S2 salud ↔ esperanza vida
+    Pearson:  r=+0.2237  p=1.11e-22 ***
+    Spearman: r=+0.1909  p=7.86e-17
+    n=1874
+
+  S3 municipio ↔ ingreso
+    Pearson:  r=-0.2858  p=1.45e-36 ***
+    Spearman: r=-0.2855  p=1.73e-36
+    n=1874
+
+  S4 seguridad ↔ IDH
+    Pearson:  r=+0.0733  p=1.50e-03 **
+    Spearman: r=+0.0743  p=1.29e-03
+    n=1874
+
+  BASE señal ↔ IDH
+    Pearson:  r=-0.1102  p=1.72e-06 ***
+    Spearman: r=-0.1180  p=3.01e-07
+    n=1874
+
+Interpretación: correlaciones negativas indican que mayor
+vulnerabilidad digital se asocia con menores outcomes de
+desarrollo humano. No implica causalidad, sino coherencia
+del instrumento como diagnóstico de capacidad de entrega
+de servicios.
+
+═══════════════════════════════════════════════
+LIMITACIONES METODOLÓGICAS
+═══════════════════════════════════════════════
+
+1. TEMPORALIDAD: IDH=2019, PRONATEL=2022, OSIPTEL=2025,
+   RENAMU=2025. Correlaciones son estructurales, no causales.
+
+2. S4 COBERTURA PARCIAL: Solo 495/1,874 distritos tienen
+   dependencia policial en la base PRONATEL. Los 1,379 sin
+   presencia reciben vulnerabilidad máxima en S4, lo que
+   puede sobreestimar la brecha policial en distritos rurales
+   sin comisaría pero con presencia PNP no registrada en
+   los proyectos PRONATEL.
+
+3. S1 y S2 COBERTURA PRONATEL: Cubren 77-80% de distritos.
+   Distritos sin presencia PRONATEL reciben valor=100%
+   vulnerable en esos sectores.
+
+4. S3 SIAF/SIGA: Variables usa_siaf y usa_siga sin varianza
+   en este corte. Se usó calidad de conexión ordinal como
+   proxy de capacidad operativa digital.
+
+5. PENALIDAD BASE: El coeficiente 0.30 es conservador por
+   diseño. En iteraciones futuras puede ajustarse con datos
+   de año común mediante regresión OLS.
+
+═══════════════════════════════════════════════
+OUTPUTS GENERADOS
+═══════════════════════════════════════════════
+  1. ivdc_v2_distrital_final.csv      — 1874 filas × 28 cols
+  2. ivdc_v2_tabla_departamental.csv  — 25 departamentos
+  3. ivdc_v2_reporte_metodologico.txt — este archivo

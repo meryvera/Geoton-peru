@@ -1,0 +1,28 @@
+﻿control,valor,observacion
+dataset,Localidades Beneficiarias,
+archivo_base,20240416105813___Localidades_Beneficiarias.shp,
+registros_leidos,6945,
+campos_originales_dbf,16,
+crs,EPSG:4326,Sistema de coordenadas detectado por geopandas.
+prj,"GEOGCS[""GCS_WGS_1984"",DATUM[""D_WGS_1984"",SPHEROID[""WGS_1984"",6378137.0,298.257223563]],PRIMEM[""Greenwich"",0.0],UNIT[""Degree"",0.0174532925199433]]",Contenido del archivo .prj.
+encoding_usado,UTF-8,No se recibió archivo .cpg; se leyó con UTF-8 correctamente.
+tipo_geometria,Point,
+geometrias_nulas,0,
+geometrias_vacias,0,
+geometrias_invalidas,0,
+coordenadas_fuera_rango_aprox_peru,0,Rango aproximado: lon -82.5 a -68.0; lat -18.5 a 0.5.
+filas_duplicadas_exactas_atributos,0,
+duplicados_por_cod_ccpp_territorio,0,"Duplicado sobre cod_dpto, cod_prov, cod_dist, cod_ccpp."
+cod_ccpp_unicos,6945,
+departamentos_unicos,22,
+provincias_unicas,182,
+distritos_unicos,1503,
+proyectos_unicos,24,
+estados_proyecto_unicos,4,
+localidades_con_poblacion_0,14,
+valores_negativos_en_conteos,0,"POB_2023, IAOS_PY, IIEE_PY, EESS_PY, DP_PY."
+poblacion_2023_total,3260147,
+total_iaos,11494,
+total_iiee,7670,
+total_eess,3470,
+total_dp,415,

@@ -1,0 +1,29 @@
+﻿variable,origen,significado,tipo_dato,registros_no_nulos,registros_nulos,valores_unicos,valor_minimo,valor_maximo,ejemplos_valores,observaciones
+OBJECTID,original_dbf,Identificador interno del registro dentro de la capa geográfica.,float64,8720,0,8720,1.0,8720.0,1.0; 2.0; 3.0; 4.0; 5.0,
+COD_DPTO,original_dbf,Código del departamento según codificación territorial.,string,8720,0,22,01,24,01; 02; 03; 04; 05,Tratar como texto para no perder ceros iniciales.
+NOM_DPTO,original_dbf,Nombre del departamento.,object,8720,0,22,AMAZONAS,TUMBES,AMAZONAS; ANCASH; APURIMAC; AREQUIPA; AYACUCHO,
+COD_PROV,original_dbf,Código de la provincia según codificación territorial.,string,8720,0,185,0101,2403,0102; 0103; 0101; 0104; 0105,Tratar como texto para no perder ceros iniciales.
+NOM_PROV,original_dbf,Nombre de la provincia.,object,8720,0,185,ABANCAY,ZARUMILLA,BAGUA; BONGARA; CHACHAPOYAS; CONDORCANQUI; LUYA,
+COD_DIST,original_dbf,Código del distrito según codificación territorial.,string,8720,0,1449,010103,240304,010202; 010201; 010203; 010204; 010205,Tratar como texto para no perder ceros iniciales.
+NOM_DIST,original_dbf,Nombre del distrito.,object,8720,0,1352,ABANCAY,ZUÑIGA,ARAMANGO; BAGUA; COPALLIN; EL PARCO; IMAZA,
+COD_CCPP,original_dbf,Código del centro poblado asociado.,string,8720,0,6883,0101030001,2403040010,0102020064; 0102020033; 0102020045; 0102020073; 0102020020,Tratar como texto para no perder ceros iniciales.
+NOM_CCPP,original_dbf,Nombre del centro poblado asociado.,object,8720,0,5799,06 DE MAYO,ÑUNYA TEMPLE,COPALLIN DE ARAMANGO; EL MUYO (C.P.L.); LA LIBERTAD (C.P.L.); SANTA CLARA; TUTUMBEROS,
+LIST_DIOP,original_dbf,Código/listado operativo asociado al centro poblado o intervención PRONATEL. En esta capa coincide frecuentemente con COD_CCPP.,string,8720,0,6883,0101030001,2403040010,0102020064; 0102020033; 0102020045; 0102020073; 0102020020,Tratar como texto para no perder ceros iniciales.
+REGIóN,original_dbf,Nombre de la región/departamento reportado por la fuente PRONATEL.,object,8720,0,22,AMAZONAS,TUMBES,AMAZONAS; ANCASH; APURIMAC; AREQUIPA; AYACUCHO,
+PROVINCIA,original_dbf,Nombre de la provincia reportado por la fuente PRONATEL.,object,8720,0,185,ABANCAY,ZARUMILLA,BAGUA; BONGARA; CHACHAPOYAS; CONDORCANQUI; LUYA,
+DISTRITO,original_dbf,Nombre del distrito reportado por la fuente PRONATEL.,object,8720,0,1352,ABANCAY,ZUÑIGA,ARAMANGO; BAGUA; COPALLIN; EL PARCO; IMAZA,
+LOCALIDAD,original_dbf,Nombre de la localidad o centro poblado reportado por PRONATEL.,object,8720,0,5799,06 DE MAYO,ÑUNYA TEMPLE,COPALLIN DE ARAMANGO; EL MUYO (C.P.L.); LA LIBERTAD (C.P.L.); SANTA CLARA; TUTUMBEROS,
+NOM_PROY,original_dbf,Nombre o agrupación del proyecto/intervención al que pertenece el local escolar.,object,8720,0,24,[REGIONAL] - [APURIMAC],[REGIONAL][TUMBES],[REGIONAL][AMAZONAS]; [REGIONAL][ANCASH]; [REGIONAL] - [APURIMAC]; [REGIONAL][AREQUIPA]; [REGIONAL] - [AYACUCHO],
+NOM_LOC_ES,original_dbf,Nombre del local escolar.,object,8719,1,7740,#N/A,[ZAPACILLAS],16202; 16200; AMAZONAS; 16040 SAN JOSE; SANTA INES,Tiene 1 valores nulos/vacíos.
+COD_LOC_ES,original_dbf,Código del local escolar.,float64,8720,0,8627,0.0,3956809.0,2872.0; 2853.0; 3254.0; 3334.0; 3348.0,Tratar como texto para no perder ceros iniciales.
+ESTADO,original_dbf,Estado operativo del local escolar dentro del proyecto o infraestructura reportada.,object,8720,0,2,NO OPERATIVO,OPERATIVO,NO OPERATIVO; OPERATIVO,
+COD_ESTADO,original_dbf,"Código del estado operativo. Según los valores del dataset: 1 = OPERATIVO, 2 = NO OPERATIVO.",float64,8720,0,2,1.0,2.0,2.0; 1.0,Tratar como texto para no perder ceros iniciales.
+FUENTE,original_dbf,Entidad fuente y fecha de referencia declarada en el dataset.,object,8720,0,1,"Ministerio de Transportes y Comunicaciones (MTC). Programa Nacional de Telecomunicaciones (PRONATEL), febrero de 2022","Ministerio de Transportes y Comunicaciones (MTC). Programa Nacional de Telecomunicaciones (PRONATEL), febrero de 2022","Ministerio de Transportes y Comunicaciones (MTC). Programa Nacional de Telecomunicaciones (PRONATEL), febrero de 2022",
+XCENT_CCPP,original_dbf,Longitud del centroide del centro poblado/localidad declarada en atributos.,float64,8720,0,6881,-81.267166,-68.852802,-78.459775; -78.45299; -78.487817; -78.450712; -78.44472,Coordenada geográfica en grados decimales WGS84.
+YCENT_CCPP,original_dbf,Latitud del centroide del centro poblado/localidad declarada en atributos.,float64,8720,0,6879,-18.334499,-0.098385,-5.459933; -5.422545; -5.448294; -5.483345; -5.327317,Coordenada geográfica en grados decimales WGS84.
+geom_type,derivada_geometria,Tipo de geometría extraído del shapefile.,object,8720,0,1,Point,Point,Point,
+geom_lon,derivada_geometria,Longitud extraída directamente desde la geometría del shapefile.,float64,8720,0,6881,-81.267166,-68.852802,-78.459775; -78.45299; -78.487817; -78.450712; -78.44472,Coordenada geográfica en grados decimales WGS84.
+geom_lat,derivada_geometria,Latitud extraída directamente desde la geometría del shapefile.,float64,8720,0,6879,-18.334499,-0.098385,-5.459933; -5.422545; -5.448294; -5.483345; -5.327317,Coordenada geográfica en grados decimales WGS84.
+geometry_is_empty,derivada_geometria,Indica si la geometría está vacía.,bool,8720,0,1,False,False,False,
+geometry_is_valid,derivada_geometria,Indica si la geometría es válida según la lectura geoespacial.,bool,8720,0,1,True,True,True,
+geometry_wkt,derivada_geometria,Geometría completa en formato Well-Known Text (WKT).,object,8720,0,6882,POINT (-68.852802 -16.31377),POINT (-81.267166 -4.524255),POINT (-78.459775 -5.459933); POINT (-78.45299 -5.422545); POINT (-78.487817 -5.448294); POINT (-78.450712 -5.483345); POINT (-78.44472 -5.327317),

@@ -1,0 +1,1892 @@
+﻿UBIGEO,municipio_tiene_internet,tipo_conexion,computadoras_con_internet,usa_siaf,usa_siga,indice_capacidad_digital_municipal,fuente
+010101,1,Fibra óptica,162,0,0,1,provincial_fallback
+010102,1,Satelital,5,0,0,1,distrital
+010103,1,Satelital,4,0,0,1,distrital
+010104,1,Satelital,1,0,0,1,distrital
+010105,1,Wi-fi,3,0,0,1,distrital
+010106,1,Satelital,4,0,0,1,distrital
+010107,1,Wi-fi,2,0,0,1,distrital
+010108,0,Sin conexión,,0,0,0,distrital
+010109,1,Móvil/USB,8,0,0,1,distrital
+010110,1,Wi-fi,7,0,0,1,distrital
+010111,1,Wi-fi,6,0,0,1,distrital
+010112,1,Wi-fi,3,0,0,1,distrital
+010113,1,Satelital,3,0,0,1,distrital
+010114,1,Wi-fi,4,0,0,1,distrital
+010115,1,ADSL/DSL,3,0,0,1,distrital
+010116,1,Fibra óptica,2,0,0,1,distrital
+010117,1,Satelital,3,0,0,1,distrital
+010118,1,Wi-fi,3,0,0,1,distrital
+010119,1,Fibra óptica,3,0,0,1,distrital
+010120,1,Satelital,5,0,0,1,distrital
+010121,0,Sin conexión,,0,0,0,distrital
+010201,1,Fibra óptica,119,0,0,1,provincial_fallback
+010202,1,Satelital,26,0,0,1,distrital
+010203,1,Wi-fi,9,0,0,1,distrital
+010204,1,Fibra óptica,9,0,0,1,distrital
+010205,1,ADSL/DSL,92,0,0,1,distrital
+010206,1,Wi-fi,20,0,0,1,distrital
+010301,1,Wi-fi,24,0,0,1,provincial_fallback
+010302,1,Wi-fi,4,0,0,1,distrital
+010303,1,Fibra óptica,3,0,0,1,distrital
+010304,0,Sin conexión,,0,0,0,distrital
+010305,1,Satelital,4,0,0,1,distrital
+010306,1,Fibra óptica,23,0,0,1,distrital
+010307,1,Fibra óptica,19,0,0,1,distrital
+010308,0,Sin conexión,,0,0,0,distrital
+010309,1,Satelital,3,0,0,1,distrital
+010310,1,Wi-fi,4,0,0,1,distrital
+010311,1,Wi-fi,1,0,0,1,distrital
+010312,1,Fibra óptica,16,0,0,1,distrital
+010401,1,Satelital,120,0,0,1,provincial_fallback
+010402,1,Satelital,27,0,0,1,distrital
+010403,1,Wi-fi,54,0,0,1,distrital
+010501,1,Fibra óptica,53,0,0,1,provincial_fallback
+010502,1,Wi-fi,8,0,0,1,distrital
+010503,1,Satelital,2,0,0,1,distrital
+010504,1,Satelital,6,0,0,1,distrital
+010505,1,Wi-fi,7,0,0,1,distrital
+010506,1,ADSL/DSL,4,0,0,1,distrital
+010507,1,Wi-fi,7,0,0,1,distrital
+010508,1,Satelital,6,0,0,1,distrital
+010509,1,Móvil/USB,10,0,0,1,distrital
+010510,1,Wi-fi,3,0,0,1,distrital
+010511,1,Wi-fi,5,0,0,1,distrital
+010512,1,Fibra óptica,10,0,0,1,distrital
+010513,1,Satelital,1,0,0,1,distrital
+010514,1,Satelital,8,0,0,1,distrital
+010515,1,Satelital,4,0,0,1,distrital
+010516,1,Satelital,5,0,0,1,distrital
+010517,1,Fibra óptica,2,0,0,1,distrital
+010518,1,Wi-fi,3,0,0,1,distrital
+010519,1,Satelital,4,0,0,1,distrital
+010520,1,Satelital,5,0,0,1,distrital
+010521,1,Satelital,7,0,0,1,distrital
+010522,1,Wi-fi,3,0,0,1,distrital
+010523,1,Fibra óptica,5,0,0,1,distrital
+010601,1,Wi-fi,34,0,0,1,provincial_fallback
+010602,1,Satelital,4,0,0,1,distrital
+010603,1,Wi-fi,5,0,0,1,distrital
+010604,1,Fibra óptica,12,0,0,1,distrital
+010605,1,Móvil/USB,6,0,0,1,distrital
+010606,0,Sin conexión,,0,0,0,distrital
+010607,1,Fibra óptica,5,0,0,1,distrital
+010608,1,Satelital,5,0,0,1,distrital
+010609,1,Fibra óptica,23,0,0,1,distrital
+010610,1,Satelital,5,0,0,1,distrital
+010611,1,Satelital,6,0,0,1,distrital
+010612,1,Satelital,5,0,0,1,distrital
+010701,1,ADSL/DSL,259,0,0,1,provincial_fallback
+010702,1,Fibra óptica,78,0,0,1,distrital
+010703,1,Fibra óptica,14,0,0,1,distrital
+010704,1,Fibra óptica,9,0,0,1,distrital
+010705,1,Fibra óptica,30,0,0,1,distrital
+010706,1,Fibra óptica,28,0,0,1,distrital
+010707,1,Wi-fi,4,0,0,1,distrital
+020101,1,Fibra óptica,306,0,0,1,provincial_fallback
+020102,1,Satelital,5,0,0,1,distrital
+020103,0,Sin conexión,,0,0,0,distrital
+020104,1,ADSL/DSL,5,0,0,1,distrital
+020105,1,Fibra óptica,242,0,0,1,distrital
+020106,1,Fibra óptica,26,0,0,1,distrital
+020107,1,Wi-fi,7,0,0,1,distrital
+020108,1,ADSL/DSL,16,0,0,1,distrital
+020109,1,Wi-fi,10,0,0,1,distrital
+020110,1,Fibra óptica,17,0,0,1,distrital
+020111,1,Wi-fi,10,0,0,1,distrital
+020112,1,Fibra óptica,15,0,0,1,distrital
+020201,1,Fibra óptica,18,0,0,1,provincial_fallback
+020202,0,Sin conexión,,0,0,0,distrital
+020203,1,Wi-fi,8,0,0,1,distrital
+020204,1,Wi-fi,9,0,0,1,distrital
+020205,1,Satelital,4,0,0,1,distrital
+020301,1,Fibra óptica,12,0,0,1,provincial_fallback
+020302,1,ADSL/DSL,6,0,0,1,distrital
+020303,1,Fibra óptica,3,0,0,1,distrital
+020304,1,Satelital,5,0,0,1,distrital
+020305,1,Satelital,15,0,0,1,distrital
+020306,1,Wi-fi,4,0,0,1,distrital
+020401,1,Satelital,11,0,0,1,provincial_fallback
+020402,1,Fibra óptica,14,0,0,1,distrital
+020501,1,Fibra óptica,26,0,0,1,provincial_fallback
+020502,1,Satelital,4,0,0,1,distrital
+020503,1,Satelital,14,0,0,1,distrital
+020504,1,Móvil/USB,10,0,0,1,distrital
+020505,1,Fibra óptica,13,0,0,1,distrital
+020506,1,Fibra óptica,2,0,0,1,distrital
+020507,1,Wi-fi,9,0,0,1,distrital
+020508,1,Fibra óptica,19,0,0,1,distrital
+020509,1,Wi-fi,11,0,0,1,distrital
+020510,1,Fibra óptica,2,0,0,1,distrital
+020511,1,Wi-fi,5,0,0,1,distrital
+020512,1,Wi-fi,5,0,0,1,distrital
+020513,1,Wi-fi,4,0,0,1,distrital
+020514,1,Satelital,5,0,0,1,distrital
+020515,1,Wi-fi,8,0,0,1,distrital
+020601,1,Fibra óptica,122,0,0,1,provincial_fallback
+020602,1,Wi-fi,4,0,0,1,distrital
+020603,1,Fibra óptica,10,0,0,1,distrital
+020604,1,Wi-fi,12,0,0,1,distrital
+020605,1,Satelital,8,0,0,1,distrital
+020606,1,Fibra óptica,11,0,0,1,distrital
+020607,1,Satelital,10,0,0,1,distrital
+020608,1,Fibra óptica,4,0,0,1,distrital
+020609,1,ADSL/DSL,14,0,0,1,distrital
+020610,1,Fibra óptica,9,0,0,1,distrital
+020611,1,Fibra óptica,14,0,0,1,distrital
+020701,1,Fibra óptica,32,0,0,1,provincial_fallback
+020702,1,Wi-fi,9,0,0,1,distrital
+020703,1,Satelital,28,0,0,1,distrital
+020801,1,Fibra óptica,160,0,0,1,provincial_fallback
+020802,1,Móvil/USB,17,0,0,1,distrital
+020803,1,Fibra óptica,16,0,0,1,distrital
+020804,1,Satelital,29,0,0,1,distrital
+020901,1,Móvil/USB,6,0,0,1,provincial_fallback
+020902,1,Satelital,7,0,0,1,distrital
+020903,1,Satelital,7,0,0,1,distrital
+020904,1,Wi-fi,6,0,0,1,distrital
+020905,1,Wi-fi,8,0,0,1,distrital
+020906,1,Wi-fi,1,0,0,1,distrital
+020907,1,Wi-fi,4,0,0,1,distrital
+021001,1,Fibra óptica,80,0,0,1,provincial_fallback
+021002,1,Wi-fi,12,0,0,1,distrital
+021003,1,Wi-fi,13,0,0,1,distrital
+021004,1,Fibra óptica,52,0,0,1,distrital
+021005,1,Wi-fi,17,0,0,1,distrital
+021006,1,Satelital,15,0,0,1,distrital
+021007,1,Wi-fi,35,0,0,1,distrital
+021008,1,Móvil/USB,18,0,0,1,distrital
+021009,1,Wi-fi,19,0,0,1,distrital
+021010,1,Wi-fi,2,0,0,1,distrital
+021011,1,Satelital,36,0,0,1,distrital
+021012,1,Fibra óptica,11,0,0,1,distrital
+021013,1,Fibra óptica,3,0,0,1,distrital
+021014,1,Fibra óptica,270,0,0,1,distrital
+021015,1,Fibra óptica,27,0,0,1,distrital
+021016,1,Fibra óptica,7,0,0,1,distrital
+021101,1,Fibra óptica,190,0,0,1,provincial_fallback
+021102,1,Satelital,7,0,0,1,distrital
+021103,1,Wi-fi,11,0,0,1,distrital
+021104,0,Sin conexión,,0,0,0,distrital
+021105,1,ADSL/DSL,8,0,0,1,distrital
+021201,1,Fibra óptica,144,0,0,1,provincial_fallback
+021202,1,ADSL/DSL,7,0,0,1,distrital
+021203,1,Satelital,6,0,0,1,distrital
+021204,1,Wi-fi,3,0,0,1,distrital
+021205,1,Wi-fi,9,0,0,1,distrital
+021206,1,Satelital,20,0,0,1,distrital
+021207,1,Fibra óptica,38,0,0,1,distrital
+021208,1,Satelital,34,0,0,1,distrital
+021209,1,Móvil/USB,11,0,0,1,distrital
+021210,1,Wi-fi,12,0,0,1,distrital
+021301,1,Fibra óptica,36,0,0,1,provincial_fallback
+021302,1,Fibra óptica,18,0,0,1,distrital
+021303,1,Wi-fi,11,0,0,1,distrital
+021304,1,Móvil/USB,13,0,0,1,distrital
+021305,1,Wi-fi,8,0,0,1,distrital
+021306,1,Wi-fi,18,0,0,1,distrital
+021307,1,Wi-fi,12,0,0,1,distrital
+021308,1,Satelital,6,0,0,1,distrital
+021401,1,Fibra óptica,17,0,0,1,provincial_fallback
+021402,1,Fibra óptica,5,0,0,1,distrital
+021403,1,Wi-fi,6,0,0,1,distrital
+021404,1,Satelital,5,0,0,1,distrital
+021405,1,ADSL/DSL,5,0,0,1,distrital
+021406,1,Wi-fi,5,0,0,1,distrital
+021407,1,Satelital,2,0,0,1,distrital
+021408,1,Wi-fi,7,0,0,1,distrital
+021409,1,Wi-fi,1,0,0,1,distrital
+021410,1,ADSL/DSL,3,0,0,1,distrital
+021501,1,Fibra óptica,35,0,0,1,provincial_fallback
+021502,1,Wi-fi,5,0,0,1,distrital
+021503,1,Satelital,31,0,0,1,distrital
+021504,1,Wi-fi,6,0,0,1,distrital
+021505,1,Wi-fi,4,0,0,1,distrital
+021506,1,Satelital,5,0,0,1,distrital
+021507,1,Satelital,5,0,0,1,distrital
+021508,1,Móvil/USB,12,0,0,1,distrital
+021509,1,Fibra óptica,14,0,0,1,distrital
+021510,1,Wi-fi,6,0,0,1,distrital
+021511,1,Wi-fi,12,0,0,1,distrital
+021601,1,Fibra óptica,78,0,0,1,provincial_fallback
+021602,1,Fibra óptica,18,0,0,1,distrital
+021603,1,Satelital,22,0,0,1,distrital
+021604,1,Fibra óptica,10,0,0,1,distrital
+021701,1,Fibra óptica,57,0,0,1,provincial_fallback
+021702,1,Fibra óptica,17,0,0,1,distrital
+021703,1,Wi-fi,3,0,0,1,distrital
+021704,1,Satelital,3,0,0,1,distrital
+021705,1,Wi-fi,7,0,0,1,distrital
+021706,1,Wi-fi,8,0,0,1,distrital
+021707,0,Sin conexión,,0,0,0,distrital
+021708,1,Wi-fi,4,0,0,1,distrital
+021709,1,Wi-fi,5,0,0,1,distrital
+021710,1,Fibra óptica,11,0,0,1,distrital
+021801,1,Fibra óptica,768,0,0,1,provincial_fallback
+021802,1,Satelital,33,0,0,1,distrital
+021803,1,Fibra óptica,65,0,0,1,distrital
+021804,1,Satelital,20,0,0,1,distrital
+021805,1,Fibra óptica,36,0,0,1,distrital
+021806,1,ADSL/DSL,65,0,0,1,distrital
+021807,1,Móvil/USB,30,0,0,1,distrital
+021808,1,Fibra óptica,97,0,0,1,distrital
+021809,1,Satelital,342,0,0,1,distrital
+021901,1,Fibra óptica,67,0,0,1,provincial_fallback
+021902,1,Wi-fi,13,0,0,1,distrital
+021903,1,Satelital,4,0,0,1,distrital
+021904,1,Fibra óptica,10,0,0,1,distrital
+021905,1,Wi-fi,5,0,0,1,distrital
+021906,1,Móvil/USB,8,0,0,1,distrital
+021907,1,Satelital,11,0,0,1,distrital
+021908,1,Wi-fi,8,0,0,1,distrital
+021909,1,Fibra óptica,22,0,0,1,distrital
+021910,1,Satelital,12,0,0,1,distrital
+022001,1,Fibra óptica,108,0,0,1,provincial_fallback
+022002,1,Wi-fi,6,0,0,1,distrital
+022003,1,Móvil/USB,29,0,0,1,distrital
+022004,1,Wi-fi,14,0,0,1,distrital
+022005,1,Wi-fi,48,0,0,1,distrital
+022006,1,Fibra óptica,21,0,0,1,distrital
+022007,1,Wi-fi,7,0,0,1,distrital
+022008,1,Fibra óptica,24,0,0,1,distrital
+030101,1,Fibra óptica,288,0,0,1,provincial_fallback
+030102,1,Wi-fi,7,0,0,1,distrital
+030103,1,Wi-fi,7,0,0,1,distrital
+030104,1,Fibra óptica,70,0,0,1,distrital
+030105,1,Wi-fi,4,0,0,1,distrital
+030106,1,Satelital,10,0,0,1,distrital
+030107,1,Wi-fi,15,0,0,1,distrital
+030108,1,Fibra óptica,18,0,0,1,distrital
+030109,1,Fibra óptica,74,0,0,1,distrital
+030201,1,Fibra óptica,340,0,0,1,provincial_fallback
+030202,1,Fibra óptica,20,0,0,1,distrital
+030203,1,Wi-fi,10,0,0,1,distrital
+030204,1,Fibra óptica,13,0,0,1,distrital
+030205,1,Fibra óptica,20,0,0,1,distrital
+030206,1,Satelital,10,0,0,1,distrital
+030207,1,Fibra óptica,30,0,0,1,distrital
+030208,1,Fibra óptica,10,0,0,1,distrital
+030209,1,Fibra óptica,49,0,0,1,distrital
+030210,1,Satelital,14,0,0,1,distrital
+030211,1,Fibra óptica,7,0,0,1,distrital
+030212,1,Satelital,18,0,0,1,distrital
+030213,1,Fibra óptica,98,0,0,1,distrital
+030214,1,Satelital,14,0,0,1,distrital
+030215,1,Fibra óptica,44,0,0,1,distrital
+030216,1,Fibra óptica,84,0,0,1,distrital
+030217,1,Wi-fi,13,0,0,1,distrital
+030218,1,Fibra óptica,19,0,0,1,distrital
+030219,1,Móvil/USB,9,0,0,1,distrital
+030220,1,Fibra óptica,21,0,0,1,distrital
+030301,1,Fibra óptica,41,0,0,1,provincial_fallback
+030302,1,Fibra óptica,8,0,0,1,distrital
+030303,1,Satelital,10,0,0,1,distrital
+030304,1,Móvil/USB,5,0,0,1,distrital
+030305,1,Wi-fi,7,0,0,1,distrital
+030306,1,Fibra óptica,10,0,0,1,distrital
+030307,1,Móvil/USB,7,0,0,1,distrital
+030401,1,Fibra óptica,101,0,0,1,provincial_fallback
+030402,1,Fibra óptica,7,0,0,1,distrital
+030403,1,Wi-fi,4,0,0,1,distrital
+030404,0,Sin conexión,,0,0,0,distrital
+030405,1,Fibra óptica,7,0,0,1,distrital
+030406,1,Móvil/USB,16,0,0,1,distrital
+030407,1,Móvil/USB,3,0,0,1,distrital
+030408,1,Wi-fi,9,0,0,1,distrital
+030409,1,Wi-fi,6,0,0,1,distrital
+030410,1,Wi-fi,4,0,0,1,distrital
+030411,1,Fibra óptica,4,0,0,1,distrital
+030412,1,Móvil/USB,8,0,0,1,distrital
+030413,1,Satelital,9,0,0,1,distrital
+030414,1,ADSL/DSL,4,0,0,1,distrital
+030415,1,Fibra óptica,13,0,0,1,distrital
+030416,1,Wi-fi,9,0,0,1,distrital
+030417,1,Fibra óptica,6,0,0,1,distrital
+030501,1,Fibra óptica,182,0,0,1,provincial_fallback
+030502,1,Wi-fi,24,0,0,1,distrital
+030503,1,Fibra óptica,34,0,0,1,distrital
+030504,1,Wi-fi,77,0,0,1,distrital
+030505,1,Wi-fi,38,0,0,1,distrital
+030506,1,Fibra óptica,57,0,0,1,distrital
+030601,1,Fibra óptica,69,0,0,1,provincial_fallback
+030602,1,Fibra óptica,59,0,0,1,distrital
+030603,1,ADSL/DSL,15,0,0,1,distrital
+030604,1,Fibra óptica,26,0,0,1,distrital
+030605,1,Fibra óptica,21,0,0,1,distrital
+030606,1,Fibra óptica,22,0,0,1,distrital
+030607,1,Satelital,8,0,0,1,distrital
+030608,1,Fibra óptica,20,0,0,1,distrital
+030609,1,Satelital,15,0,0,1,distrital
+030610,1,Satelital,10,0,0,1,distrital
+030611,1,Fibra óptica,11,0,0,1,distrital
+030612,1,Satelital,5,0,0,1,distrital
+030701,1,Fibra óptica,42,0,0,1,provincial_fallback
+030702,1,Fibra óptica,15,0,0,1,distrital
+030703,1,Satelital,12,0,0,1,distrital
+030704,1,Satelital,3,0,0,1,distrital
+030705,1,Móvil/USB,7,0,0,1,distrital
+030706,1,Wi-fi,6,0,0,1,distrital
+030707,1,Fibra óptica,6,0,0,1,distrital
+030708,1,Wi-fi,10,0,0,1,distrital
+030709,0,Sin conexión,,0,0,0,distrital
+030710,1,Fibra óptica,2,0,0,1,distrital
+030711,1,Fibra óptica,5,0,0,1,distrital
+030712,1,Fibra óptica,8,0,0,1,distrital
+030713,0,Sin conexión,,0,0,0,distrital
+030714,1,Satelital,1,0,0,1,distrital
+040101,1,Fibra óptica,729,0,0,1,provincial_fallback
+040102,1,Fibra óptica,184,0,0,1,distrital
+040103,1,Fibra óptica,343,0,0,1,distrital
+040104,1,Fibra óptica,418,0,0,1,distrital
+040105,1,Fibra óptica,56,0,0,1,distrital
+040106,1,Fibra óptica,22,0,0,1,distrital
+040107,1,Fibra óptica,152,0,0,1,distrital
+040108,1,Fibra óptica,42,0,0,1,distrital
+040109,1,Fibra óptica,149,0,0,1,distrital
+040110,1,Fibra óptica,186,0,0,1,distrital
+040111,1,Fibra óptica,38,0,0,1,distrital
+040112,1,Fibra óptica,224,0,0,1,distrital
+040113,1,Wi-fi,8,0,0,1,distrital
+040114,1,Wi-fi,15,0,0,1,distrital
+040115,1,Wi-fi,36,0,0,1,distrital
+040116,1,Wi-fi,22,0,0,1,distrital
+040117,1,Fibra óptica,144,0,0,1,distrital
+040118,1,Wi-fi,9,0,0,1,distrital
+040119,1,Fibra óptica,19,0,0,1,distrital
+040120,1,ADSL/DSL,12,0,0,1,distrital
+040121,1,Móvil/USB,35,0,0,1,distrital
+040122,1,ADSL/DSL,185,0,0,1,distrital
+040123,1,Fibra óptica,93,0,0,1,distrital
+040124,1,Fibra óptica,99,0,0,1,distrital
+040125,1,Móvil/USB,26,0,0,1,distrital
+040126,1,Fibra óptica,171,0,0,1,distrital
+040127,1,Móvil/USB,128,0,0,1,distrital
+040128,1,Fibra óptica,167,0,0,1,distrital
+040129,1,Fibra óptica,232,0,0,1,distrital
+040201,1,Fibra óptica,86,0,0,1,provincial_fallback
+040202,1,Móvil/USB,10,0,0,1,distrital
+040203,1,Fibra óptica,10,0,0,1,distrital
+040204,1,Móvil/USB,13,0,0,1,distrital
+040205,1,Fibra óptica,27,0,0,1,distrital
+040206,1,Wi-fi,20,0,0,1,distrital
+040207,1,Wi-fi,16,0,0,1,distrital
+040208,1,Fibra óptica,79,0,0,1,distrital
+040301,1,Wi-fi,57,0,0,1,provincial_fallback
+040302,1,Wi-fi,18,0,0,1,distrital
+040303,1,Fibra óptica,27,0,0,1,distrital
+040304,1,Fibra óptica,11,0,0,1,distrital
+040305,1,Fibra óptica,19,0,0,1,distrital
+040306,1,Móvil/USB,6,0,0,1,distrital
+040307,1,Fibra óptica,36,0,0,1,distrital
+040308,1,Fibra óptica,18,0,0,1,distrital
+040309,1,Wi-fi,16,0,0,1,distrital
+040310,1,Wi-fi,9,0,0,1,distrital
+040311,1,Wi-fi,8,0,0,1,distrital
+040312,1,Wi-fi,11,0,0,1,distrital
+040313,1,Wi-fi,10,0,0,1,distrital
+040401,1,Fibra óptica,61,0,0,1,provincial_fallback
+040402,1,Wi-fi,10,0,0,1,distrital
+040403,1,Móvil/USB,4,0,0,1,distrital
+040404,1,Fibra óptica,6,0,0,1,distrital
+040405,1,Fibra óptica,2,0,0,1,distrital
+040406,1,Wi-fi,6,0,0,1,distrital
+040407,1,Móvil/USB,12,0,0,1,distrital
+040408,1,Wi-fi,9,0,0,1,distrital
+040409,1,Satelital,33,0,0,1,distrital
+040410,1,Satelital,14,0,0,1,distrital
+040411,1,Fibra óptica,6,0,0,1,distrital
+040412,1,Fibra óptica,1,0,0,1,distrital
+040413,1,Fibra óptica,20,0,0,1,distrital
+040414,1,Móvil/USB,11,0,0,1,distrital
+040501,1,Fibra óptica,130,0,0,1,provincial_fallback
+040502,1,Móvil/USB,10,0,0,1,distrital
+040503,1,Satelital,15,0,0,1,distrital
+040504,1,Wi-fi,8,0,0,1,distrital
+040505,1,Satelital,27,0,0,1,distrital
+040506,1,Fibra óptica,9,0,0,1,distrital
+040507,1,Wi-fi,3,0,0,1,distrital
+040508,0,Sin conexión,,0,0,0,distrital
+040509,1,Wi-fi,6,0,0,1,distrital
+040510,1,Wi-fi,6,0,0,1,distrital
+040511,1,Wi-fi,5,0,0,1,distrital
+040512,1,Wi-fi,7,0,0,1,distrital
+040513,1,Wi-fi,5,0,0,1,distrital
+040514,1,Wi-fi,10,0,0,1,distrital
+040515,1,ADSL/DSL,8,0,0,1,distrital
+040516,1,Móvil/USB,7,0,0,1,distrital
+040517,0,Sin conexión,,0,0,0,distrital
+040518,1,Fibra óptica,6,0,0,1,distrital
+040519,1,ADSL/DSL,10,0,0,1,distrital
+040520,1,Fibra óptica,279,0,0,1,distrital
+040601,1,Satelital,40,0,0,1,provincial_fallback
+040602,1,Wi-fi,9,0,0,1,distrital
+040603,1,Satelital,16,0,0,1,distrital
+040604,1,Satelital,9,0,0,1,distrital
+040605,1,Satelital,4,0,0,1,distrital
+040606,1,Satelital,15,0,0,1,distrital
+040607,1,Wi-fi,5,0,0,1,distrital
+040608,1,ADSL/DSL,5,0,0,1,distrital
+040701,1,Fibra óptica,120,0,0,1,provincial_fallback
+040702,1,Fibra óptica,84,0,0,1,distrital
+040703,1,Fibra óptica,46,0,0,1,distrital
+040704,1,Móvil/USB,76,0,0,1,distrital
+040705,1,Fibra óptica,58,0,0,1,distrital
+040706,1,Fibra óptica,60,0,0,1,distrital
+040801,1,Fibra óptica,18,0,0,1,provincial_fallback
+040802,1,Wi-fi,8,0,0,1,distrital
+040803,1,Móvil/USB,9,0,0,1,distrital
+040804,1,Wi-fi,13,0,0,1,distrital
+040805,1,Wi-fi,8,0,0,1,distrital
+040806,1,Wi-fi,10,0,0,1,distrital
+040807,1,Wi-fi,4,0,0,1,distrital
+040808,1,Wi-fi,10,0,0,1,distrital
+040809,1,Satelital,6,0,0,1,distrital
+040810,1,Wi-fi,6,0,0,1,distrital
+040811,1,Wi-fi,9,0,0,1,distrital
+050101,1,Fibra óptica,361,0,0,1,provincial_fallback
+050102,1,ADSL/DSL,34,0,0,1,distrital
+050103,1,Fibra óptica,8,0,0,1,distrital
+050104,1,Fibra óptica,55,0,0,1,distrital
+050105,1,Fibra óptica,50,0,0,1,distrital
+050106,1,Wi-fi,25,0,0,1,distrital
+050107,1,Satelital,16,0,0,1,distrital
+050108,1,Wi-fi,20,0,0,1,distrital
+050109,1,Fibra óptica,12,0,0,1,distrital
+050110,1,Fibra óptica,175,0,0,1,distrital
+050111,1,Wi-fi,3,0,0,1,distrital
+050112,1,Fibra óptica,42,0,0,1,distrital
+050113,1,Fibra óptica,18,0,0,1,distrital
+050114,1,Satelital,36,0,0,1,distrital
+050115,1,Fibra óptica,76,0,0,1,distrital
+050116,1,Fibra óptica,135,0,0,1,distrital
+050201,1,Fibra óptica,42,0,0,1,provincial_fallback
+050202,1,Fibra óptica,43,0,0,1,distrital
+050203,1,Satelital,25,0,0,1,distrital
+050204,1,Wi-fi,8,0,0,1,distrital
+050205,1,Wi-fi,21,0,0,1,distrital
+050206,1,Fibra óptica,8,0,0,1,distrital
+050301,1,Satelital,36,0,0,1,provincial_fallback
+050302,1,Móvil/USB,10,0,0,1,distrital
+050303,1,Satelital,10,0,0,1,distrital
+050304,1,Fibra óptica,15,0,0,1,distrital
+050401,1,Fibra óptica,214,0,0,1,provincial_fallback
+050402,1,Móvil/USB,18,0,0,1,distrital
+050403,1,Satelital,34,0,0,1,distrital
+050404,1,Wi-fi,14,0,0,1,distrital
+050405,1,Fibra óptica,30,0,0,1,distrital
+050406,1,Fibra óptica,15,0,0,1,distrital
+050407,1,Wi-fi,16,0,0,1,distrital
+050408,1,Fibra óptica,20,0,0,1,distrital
+050409,1,Fibra óptica,13,0,0,1,distrital
+050410,1,Wi-fi,25,0,0,1,distrital
+050411,1,Wi-fi,16,0,0,1,distrital
+050412,1,Wi-fi,17,0,0,1,distrital
+050413,1,ADSL/DSL,8,0,0,1,distrital
+050501,1,Fibra óptica,197,0,0,1,provincial_fallback
+050502,1,Wi-fi,83,0,0,1,distrital
+050503,1,Fibra óptica,35,0,0,1,distrital
+050504,1,Móvil/USB,11,0,0,1,distrital
+050505,1,Móvil/USB,20,0,0,1,distrital
+050506,1,Fibra óptica,12,0,0,1,distrital
+050507,1,Fibra óptica,54,0,0,1,distrital
+050508,1,Fibra óptica,65,0,0,1,distrital
+050509,1,Fibra óptica,10,0,0,1,distrital
+050510,1,Fibra óptica,20,0,0,1,distrital
+050511,1,Fibra óptica,19,0,0,1,distrital
+050512,1,Fibra óptica,19,0,0,1,distrital
+050513,1,Fibra óptica,10,0,0,1,distrital
+050514,1,Satelital,8,0,0,1,distrital
+050515,1,Fibra óptica,11,0,0,1,distrital
+050601,1,Wi-fi,74,0,0,1,provincial_fallback
+050602,1,Wi-fi,11,0,0,1,distrital
+050603,1,Fibra óptica,7,0,0,1,distrital
+050604,1,Wi-fi,9,0,0,1,distrital
+050605,1,Wi-fi,14,0,0,1,distrital
+050606,1,Fibra óptica,16,0,0,1,distrital
+050607,1,Fibra óptica,6,0,0,1,distrital
+050608,1,ADSL/DSL,7,0,0,1,distrital
+050609,1,Wi-fi,7,0,0,1,distrital
+050610,1,Fibra óptica,9,0,0,1,distrital
+050611,1,Fibra óptica,15,0,0,1,distrital
+050612,1,Wi-fi,11,0,0,1,distrital
+050613,1,Satelital,15,0,0,1,distrital
+050614,1,Móvil/USB,4,0,0,1,distrital
+050615,1,Fibra óptica,6,0,0,1,distrital
+050616,1,Satelital,5,0,0,1,distrital
+050617,1,Fibra óptica,21,0,0,1,distrital
+050618,1,Satelital,12,0,0,1,distrital
+050619,1,Wi-fi,19,0,0,1,distrital
+050620,1,Wi-fi,6,0,0,1,distrital
+050621,1,Wi-fi,7,0,0,1,distrital
+050701,1,Fibra óptica,75,0,0,1,provincial_fallback
+050702,1,Fibra óptica,7,0,0,1,distrital
+050703,1,Satelital,13,0,0,1,distrital
+050704,1,Wi-fi,7,0,0,1,distrital
+050705,1,Fibra óptica,10,0,0,1,distrital
+050706,1,Móvil/USB,12,0,0,1,distrital
+050707,1,Satelital,6,0,0,1,distrital
+050708,1,Móvil/USB,10,0,0,1,distrital
+050801,1,Fibra óptica,38,0,0,1,provincial_fallback
+050802,1,Satelital,7,0,0,1,distrital
+050803,1,ADSL/DSL,8,0,0,1,distrital
+050804,1,Móvil/USB,10,0,0,1,distrital
+050805,0,Sin conexión,,0,0,0,distrital
+050806,1,Fibra óptica,4,0,0,1,distrital
+050807,1,Satelital,5,0,0,1,distrital
+050808,1,Wi-fi,4,0,0,1,distrital
+050809,1,Fibra óptica,7,0,0,1,distrital
+050810,0,Sin conexión,,0,0,0,distrital
+050901,1,ADSL/DSL,21,0,0,1,provincial_fallback
+050902,1,Móvil/USB,7,0,0,1,distrital
+050903,1,Móvil/USB,5,0,0,1,distrital
+050904,1,Satelital,7,0,0,1,distrital
+050905,1,ADSL/DSL,5,0,0,1,distrital
+050906,1,Wi-fi,2,0,0,1,distrital
+050907,1,Fibra óptica,8,0,0,1,distrital
+050908,1,Satelital,6,0,0,1,distrital
+050909,1,Satelital,5,0,0,1,distrital
+050910,1,Wi-fi,3,0,0,1,distrital
+050911,1,Fibra óptica,7,0,0,1,distrital
+051001,1,Wi-fi,47,0,0,1,provincial_fallback
+051002,1,Fibra óptica,14,0,0,1,distrital
+051003,1,Wi-fi,1,0,0,1,distrital
+051004,1,Fibra óptica,5,0,0,1,distrital
+051005,1,Fibra óptica,20,0,0,1,distrital
+051006,1,Fibra óptica,7,0,0,1,distrital
+051007,1,Fibra óptica,5,0,0,1,distrital
+051008,1,Wi-fi,4,0,0,1,distrital
+051009,1,Fibra óptica,13,0,0,1,distrital
+051010,1,Satelital,18,0,0,1,distrital
+051011,1,Fibra óptica,12,0,0,1,distrital
+051012,1,Móvil/USB,13,0,0,1,distrital
+051101,1,ADSL/DSL,87,0,0,1,provincial_fallback
+051102,1,Wi-fi,14,0,0,1,distrital
+051103,0,Sin conexión,,0,0,0,distrital
+051104,1,Fibra óptica,10,0,0,1,distrital
+051105,1,Satelital,10,0,0,1,distrital
+051106,0,Sin conexión,,0,0,0,distrital
+051107,1,Fibra óptica,12,0,0,1,distrital
+051108,1,Wi-fi,12,0,0,1,distrital
+060101,1,Fibra óptica,598,0,0,1,provincial_fallback
+060102,1,Satelital,28,0,0,1,distrital
+060103,1,Satelital,12,0,0,1,distrital
+060104,1,Satelital,4,0,0,1,distrital
+060105,1,Fibra óptica,73,0,0,1,distrital
+060106,1,Fibra óptica,9,0,0,1,distrital
+060107,1,Fibra óptica,40,0,0,1,distrital
+060108,1,Fibra óptica,259,0,0,1,distrital
+060109,1,Fibra óptica,59,0,0,1,distrital
+060110,1,Fibra óptica,25,0,0,1,distrital
+060111,1,Fibra óptica,29,0,0,1,distrital
+060112,1,Wi-fi,13,0,0,1,distrital
+060201,1,Fibra óptica,179,0,0,1,provincial_fallback
+060202,1,Wi-fi,67,0,0,1,distrital
+060203,1,Fibra óptica,54,0,0,1,distrital
+060204,1,Móvil/USB,27,0,0,1,distrital
+060301,1,Fibra óptica,110,0,0,1,provincial_fallback
+060302,1,Satelital,8,0,0,1,distrital
+060303,1,Satelital,15,0,0,1,distrital
+060304,1,Fibra óptica,24,0,0,1,distrital
+060305,1,Fibra óptica,6,0,0,1,distrital
+060306,1,Fibra óptica,11,0,0,1,distrital
+060307,1,Fibra óptica,10,0,0,1,distrital
+060308,1,Satelital,19,0,0,1,distrital
+060309,1,Wi-fi,22,0,0,1,distrital
+060310,1,Fibra óptica,4,0,0,1,distrital
+060311,1,Wi-fi,3,0,0,1,distrital
+060312,1,Fibra óptica,12,0,0,1,distrital
+060401,1,Fibra óptica,205,0,0,1,provincial_fallback
+060402,1,Wi-fi,6,0,0,1,distrital
+060403,1,Móvil/USB,11,0,0,1,distrital
+060404,1,ADSL/DSL,6,0,0,1,distrital
+060405,1,Móvil/USB,4,0,0,1,distrital
+060406,1,Fibra óptica,4,0,0,1,distrital
+060407,1,Fibra óptica,20,0,0,1,distrital
+060408,1,Wi-fi,17,0,0,1,distrital
+060409,1,Móvil/USB,17,0,0,1,distrital
+060410,1,Wi-fi,28,0,0,1,distrital
+060411,1,Wi-fi,10,0,0,1,distrital
+060412,1,Wi-fi,13,0,0,1,distrital
+060413,1,Fibra óptica,9,0,0,1,distrital
+060414,1,Wi-fi,8,0,0,1,distrital
+060415,1,Wi-fi,8,0,0,1,distrital
+060416,1,Satelital,12,0,0,1,distrital
+060417,1,Wi-fi,15,0,0,1,distrital
+060418,1,Satelital,5,0,0,1,distrital
+060419,1,ADSL/DSL,37,0,0,1,distrital
+060501,1,Fibra óptica,60,0,0,1,provincial_fallback
+060502,1,Fibra óptica,11,0,0,1,distrital
+060503,1,Satelital,8,0,0,1,distrital
+060504,1,Fibra óptica,14,0,0,1,distrital
+060505,1,Wi-fi,13,0,0,1,distrital
+060506,1,Satelital,7,0,0,1,distrital
+060507,1,Wi-fi,6,0,0,1,distrital
+060508,1,ADSL/DSL,10,0,0,1,distrital
+060601,1,Fibra óptica,184,0,0,1,provincial_fallback
+060602,1,Wi-fi,38,0,0,1,distrital
+060603,1,Fibra óptica,14,0,0,1,distrital
+060604,0,Sin conexión,,0,0,0,distrital
+060605,1,Wi-fi,10,0,0,1,distrital
+060606,1,ADSL/DSL,23,0,0,1,distrital
+060607,1,Wi-fi,49,0,0,1,distrital
+060608,1,Satelital,11,0,0,1,distrital
+060609,1,Satelital,7,0,0,1,distrital
+060610,1,Fibra óptica,15,0,0,1,distrital
+060611,1,Fibra óptica,6,0,0,1,distrital
+060612,1,Fibra óptica,17,0,0,1,distrital
+060613,1,Fibra óptica,24,0,0,1,distrital
+060614,1,Fibra óptica,44,0,0,1,distrital
+060615,1,Wi-fi,7,0,0,1,distrital
+060701,1,Fibra óptica,298,0,0,1,provincial_fallback
+060702,1,Satelital,24,0,0,1,distrital
+060703,1,Fibra óptica,70,0,0,1,distrital
+060801,1,Satelital,283,0,0,1,provincial_fallback
+060802,1,Fibra óptica,40,0,0,1,distrital
+060803,1,Wi-fi,19,0,0,1,distrital
+060804,1,Fibra óptica,15,0,0,1,distrital
+060805,1,Wi-fi,13,0,0,1,distrital
+060806,1,Fibra óptica,11,0,0,1,distrital
+060807,1,Satelital,28,0,0,1,distrital
+060808,1,Fibra óptica,12,0,0,1,distrital
+060809,1,ADSL/DSL,20,0,0,1,distrital
+060810,1,Fibra óptica,18,0,0,1,distrital
+060811,1,Wi-fi,25,0,0,1,distrital
+060812,1,Fibra óptica,25,0,0,1,distrital
+060901,1,Fibra óptica,150,0,0,1,provincial_fallback
+060902,1,Fibra óptica,44,0,0,1,distrital
+060903,1,Fibra óptica,80,0,0,1,distrital
+060904,1,Fibra óptica,43,0,0,1,distrital
+060905,1,Wi-fi,45,0,0,1,distrital
+060906,1,Fibra óptica,88,0,0,1,distrital
+060907,1,Fibra óptica,50,0,0,1,distrital
+061001,1,Fibra óptica,113,0,0,1,provincial_fallback
+061002,1,Fibra óptica,16,0,0,1,distrital
+061003,1,Wi-fi,16,0,0,1,distrital
+061004,1,Satelital,10,0,0,1,distrital
+061005,1,Satelital,10,0,0,1,distrital
+061006,1,Fibra óptica,17,0,0,1,distrital
+061007,1,Fibra óptica,35,0,0,1,distrital
+061101,1,Fibra óptica,75,0,0,1,provincial_fallback
+061102,0,Sin conexión,,0,0,0,distrital
+061103,1,Wi-fi,10,0,0,1,distrital
+061104,1,Móvil/USB,12,0,0,1,distrital
+061105,1,Wi-fi,7,0,0,1,distrital
+061106,1,Fibra óptica,2,0,0,1,distrital
+061107,1,Satelital,10,0,0,1,distrital
+061108,1,Wi-fi,4,0,0,1,distrital
+061109,1,Wi-fi,1,0,0,1,distrital
+061110,1,Satelital,3,0,0,1,distrital
+061111,1,Fibra óptica,21,0,0,1,distrital
+061112,1,Fibra óptica,7,0,0,1,distrital
+061113,1,Fibra óptica,5,0,0,1,distrital
+061201,1,Fibra óptica,60,0,0,1,provincial_fallback
+061202,1,Wi-fi,1,0,0,1,distrital
+061203,1,Wi-fi,8,0,0,1,distrital
+061204,1,Satelital,13,0,0,1,distrital
+061301,1,Wi-fi,77,0,0,1,provincial_fallback
+061302,0,Sin conexión,,0,0,0,distrital
+061303,1,Fibra óptica,10,0,0,1,distrital
+061304,1,Fibra óptica,2,0,0,1,distrital
+061305,1,Satelital,1,0,0,1,distrital
+061306,1,Wi-fi,6,0,0,1,distrital
+061307,1,Wi-fi,12,0,0,1,distrital
+061308,1,Wi-fi,5,0,0,1,distrital
+061309,1,Satelital,7,0,0,1,distrital
+061310,1,Satelital,5,0,0,1,distrital
+061311,1,Satelital,9,0,0,1,distrital
+070101,1,Fibra óptica,990,0,0,1,provincial_fallback
+070102,1,Fibra óptica,275,0,0,1,distrital
+070103,1,Fibra óptica,123,0,0,1,distrital
+070104,1,Fibra óptica,169,0,0,1,distrital
+070105,1,Fibra óptica,222,0,0,1,distrital
+070106,1,Fibra óptica,405,0,0,1,distrital
+070107,1,Fibra óptica,152,0,0,1,distrital
+080101,1,Fibra óptica,1087,0,0,1,provincial_fallback
+080102,1,ADSL/DSL,35,0,0,1,distrital
+080103,1,Fibra óptica,75,0,0,1,distrital
+080104,1,Fibra óptica,237,0,0,1,distrital
+080105,1,Fibra óptica,420,0,0,1,distrital
+080106,1,Fibra óptica,273,0,0,1,distrital
+080107,1,Wi-fi,15,0,0,1,distrital
+080108,1,Fibra óptica,256,0,0,1,distrital
+080201,1,Fibra óptica,35,0,0,1,provincial_fallback
+080202,1,Wi-fi,23,0,0,1,distrital
+080203,1,Wi-fi,20,0,0,1,distrital
+080204,1,Fibra óptica,10,0,0,1,distrital
+080205,1,Fibra óptica,46,0,0,1,distrital
+080206,1,Fibra óptica,10,0,0,1,distrital
+080207,1,ADSL/DSL,24,0,0,1,distrital
+080301,1,Fibra óptica,99,0,0,1,provincial_fallback
+080302,1,Satelital,30,0,0,1,distrital
+080303,1,Fibra óptica,30,0,0,1,distrital
+080304,1,Fibra óptica,44,0,0,1,distrital
+080305,1,Fibra óptica,32,0,0,1,distrital
+080306,1,ADSL/DSL,15,0,0,1,distrital
+080307,1,Fibra óptica,13,0,0,1,distrital
+080308,1,Fibra óptica,24,0,0,1,distrital
+080309,1,Fibra óptica,38,0,0,1,distrital
+080401,1,Fibra óptica,218,0,0,1,provincial_fallback
+080402,1,Fibra óptica,27,0,0,1,distrital
+080403,1,Fibra óptica,46,0,0,1,distrital
+080404,1,Satelital,65,0,0,1,distrital
+080405,1,Fibra óptica,88,0,0,1,distrital
+080406,1,ADSL/DSL,34,0,0,1,distrital
+080407,1,Fibra óptica,19,0,0,1,distrital
+080408,1,Fibra óptica,53,0,0,1,distrital
+080501,1,Fibra óptica,52,0,0,1,provincial_fallback
+080502,1,Satelital,24,0,0,1,distrital
+080503,1,Fibra óptica,22,0,0,1,distrital
+080504,1,ADSL/DSL,28,0,0,1,distrital
+080505,1,Fibra óptica,63,0,0,1,distrital
+080506,1,Satelital,1,0,0,1,distrital
+080507,1,Wi-fi,14,0,0,1,distrital
+080508,1,Wi-fi,15,0,0,1,distrital
+080601,1,Fibra óptica,241,0,0,1,provincial_fallback
+080602,1,Fibra óptica,54,0,0,1,distrital
+080603,1,Fibra óptica,37,0,0,1,distrital
+080604,1,Fibra óptica,68,0,0,1,distrital
+080605,1,Fibra óptica,15,0,0,1,distrital
+080606,1,Fibra óptica,23,0,0,1,distrital
+080607,1,Fibra óptica,51,0,0,1,distrital
+080608,1,Fibra óptica,54,0,0,1,distrital
+080701,1,Fibra óptica,195,0,0,1,provincial_fallback
+080702,1,Fibra óptica,22,0,0,1,distrital
+080703,1,Fibra óptica,55,0,0,1,distrital
+080704,1,Satelital,55,0,0,1,distrital
+080705,1,Fibra óptica,101,0,0,1,distrital
+080706,1,Fibra óptica,15,0,0,1,distrital
+080707,1,Fibra óptica,98,0,0,1,distrital
+080708,1,Wi-fi,45,0,0,1,distrital
+080801,1,Fibra óptica,200,0,0,1,provincial_fallback
+080802,1,Fibra óptica,10,0,0,1,distrital
+080803,1,Wi-fi,90,0,0,1,distrital
+080804,1,Fibra óptica,15,0,0,1,distrital
+080805,1,Fibra óptica,51,0,0,1,distrital
+080806,1,Wi-fi,60,0,0,1,distrital
+080807,1,Satelital,13,0,0,1,distrital
+080808,1,ADSL/DSL,24,0,0,1,distrital
+080901,1,Fibra óptica,440,0,0,1,provincial_fallback
+080902,1,Fibra óptica,354,0,0,1,distrital
+080903,1,Fibra óptica,61,0,0,1,distrital
+080904,1,Fibra óptica,102,0,0,1,distrital
+080905,1,Satelital,62,0,0,1,distrital
+080906,1,Wi-fi,150,0,0,1,distrital
+080907,1,Fibra óptica,308,0,0,1,distrital
+080908,1,Fibra óptica,110,0,0,1,distrital
+080909,1,Wi-fi,277,0,0,1,distrital
+080910,1,Fibra óptica,303,0,0,1,distrital
+080911,1,Satelital,67,0,0,1,distrital
+080912,1,Satelital,48,0,0,1,distrital
+080913,1,Wi-fi,51,0,0,1,distrital
+080914,1,Wi-fi,250,0,0,1,distrital
+080915,1,Satelital,130,0,0,1,distrital
+080916,1,Wi-fi,53,0,0,1,distrital
+080917,1,Fibra óptica,62,0,0,1,distrital
+080918,1,ADSL/DSL,141,0,0,1,distrital
+081001,1,Fibra óptica,60,0,0,1,provincial_fallback
+081002,1,ADSL/DSL,18,0,0,1,distrital
+081003,1,Satelital,16,0,0,1,distrital
+081004,1,Wi-fi,8,0,0,1,distrital
+081005,1,Fibra óptica,55,0,0,1,distrital
+081006,1,Fibra óptica,14,0,0,1,distrital
+081007,1,Fibra óptica,24,0,0,1,distrital
+081008,1,Móvil/USB,8,0,0,1,distrital
+081009,1,Fibra óptica,10,0,0,1,distrital
+081101,1,Fibra óptica,137,0,0,1,provincial_fallback
+081102,1,Fibra óptica,26,0,0,1,distrital
+081103,1,Fibra óptica,73,0,0,1,distrital
+081104,1,Fibra óptica,40,0,0,1,distrital
+081105,1,Fibra óptica,35,0,0,1,distrital
+081106,1,Satelital,53,0,0,1,distrital
+081201,1,Fibra óptica,201,0,0,1,provincial_fallback
+081202,1,Wi-fi,52,0,0,1,distrital
+081203,1,ADSL/DSL,28,0,0,1,distrital
+081204,1,Fibra óptica,31,0,0,1,distrital
+081205,1,Fibra óptica,69,0,0,1,distrital
+081206,1,ADSL/DSL,72,0,0,1,distrital
+081207,1,Fibra óptica,67,0,0,1,distrital
+081208,1,Fibra óptica,41,0,0,1,distrital
+081209,1,Fibra óptica,60,0,0,1,distrital
+081210,1,Fibra óptica,29,0,0,1,distrital
+081211,1,Fibra óptica,54,0,0,1,distrital
+081212,1,Fibra óptica,92,0,0,1,distrital
+081301,1,Fibra óptica,200,0,0,1,provincial_fallback
+081302,1,Fibra óptica,69,0,0,1,distrital
+081303,1,Fibra óptica,37,0,0,1,distrital
+081304,1,Fibra óptica,138,0,0,1,distrital
+081305,1,Fibra óptica,78,0,0,1,distrital
+081306,1,Fibra óptica,105,0,0,1,distrital
+081307,1,Fibra óptica,18,0,0,1,distrital
+090101,1,Fibra óptica,360,0,0,1,provincial_fallback
+090102,1,Móvil/USB,6,0,0,1,distrital
+090103,1,Fibra óptica,92,0,0,1,distrital
+090104,1,Fibra óptica,5,0,0,1,distrital
+090105,1,Satelital,10,0,0,1,distrital
+090106,1,Fibra óptica,30,0,0,1,distrital
+090107,1,Móvil/USB,15,0,0,1,distrital
+090108,1,Fibra óptica,10,0,0,1,distrital
+090109,1,Fibra óptica,6,0,0,1,distrital
+090110,1,ADSL/DSL,9,0,0,1,distrital
+090111,1,Satelital,2,0,0,1,distrital
+090112,1,Fibra óptica,13,0,0,1,distrital
+090113,1,Satelital,9,0,0,1,distrital
+090114,1,Móvil/USB,10,0,0,1,distrital
+090115,1,Wi-fi,10,0,0,1,distrital
+090116,1,Móvil/USB,12,0,0,1,distrital
+090117,1,Wi-fi,253,0,0,1,distrital
+090118,1,Fibra óptica,74,0,0,1,distrital
+090119,1,Wi-fi,34,0,0,1,distrital
+090201,1,ADSL/DSL,100,0,0,1,provincial_fallback
+090202,1,ADSL/DSL,19,0,0,1,distrital
+090203,1,Satelital,12,0,0,1,distrital
+090204,1,Wi-fi,13,0,0,1,distrital
+090205,1,Fibra óptica,14,0,0,1,distrital
+090206,1,Fibra óptica,130,0,0,1,distrital
+090207,1,Wi-fi,16,0,0,1,distrital
+090208,1,ADSL/DSL,11,0,0,1,distrital
+090301,1,Fibra óptica,255,0,0,1,provincial_fallback
+090302,1,ADSL/DSL,5,0,0,1,distrital
+090303,1,Wi-fi,2,0,0,1,distrital
+090304,1,Wi-fi,7,0,0,1,distrital
+090305,1,Fibra óptica,7,0,0,1,distrital
+090306,1,ADSL/DSL,14,0,0,1,distrital
+090307,1,Satelital,9,0,0,1,distrital
+090308,1,Móvil/USB,1,0,0,1,distrital
+090309,1,Wi-fi,2,0,0,1,distrital
+090310,1,Fibra óptica,9,0,0,1,distrital
+090311,1,Wi-fi,11,0,0,1,distrital
+090312,1,Wi-fi,6,0,0,1,distrital
+090401,1,Fibra óptica,20,0,0,1,provincial_fallback
+090402,1,ADSL/DSL,4,0,0,1,distrital
+090403,1,Satelital,5,0,0,1,distrital
+090404,1,Wi-fi,9,0,0,1,distrital
+090405,1,Satelital,7,0,0,1,distrital
+090406,1,Satelital,11,0,0,1,distrital
+090407,1,Satelital,6,0,0,1,distrital
+090408,1,Satelital,4,0,0,1,distrital
+090409,1,Fibra óptica,10,0,0,1,distrital
+090410,1,Wi-fi,6,0,0,1,distrital
+090411,1,Wi-fi,12,0,0,1,distrital
+090412,1,Wi-fi,8,0,0,1,distrital
+090413,1,Wi-fi,12,0,0,1,distrital
+090501,1,Wi-fi,85,0,0,1,provincial_fallback
+090502,1,Satelital,41,0,0,1,distrital
+090503,1,Satelital,14,0,0,1,distrital
+090504,1,Wi-fi,13,0,0,1,distrital
+090505,1,ADSL/DSL,7,0,0,1,distrital
+090506,1,Wi-fi,19,0,0,1,distrital
+090507,1,Satelital,24,0,0,1,distrital
+090508,1,Fibra óptica,9,0,0,1,distrital
+090509,1,ADSL/DSL,12,0,0,1,distrital
+090510,1,Satelital,11,0,0,1,distrital
+090511,1,Wi-fi,2,0,0,1,distrital
+090601,1,Fibra óptica,66,0,0,1,provincial_fallback
+090602,1,Fibra óptica,7,0,0,1,distrital
+090603,1,Fibra óptica,8,0,0,1,distrital
+090604,1,Wi-fi,4,0,0,1,distrital
+090605,0,Sin conexión,,0,0,0,distrital
+090606,1,Wi-fi,6,0,0,1,distrital
+090607,1,Wi-fi,20,0,0,1,distrital
+090608,1,Móvil/USB,7,0,0,1,distrital
+090609,1,Móvil/USB,7,0,0,1,distrital
+090610,1,Satelital,11,0,0,1,distrital
+090611,0,Sin conexión,,0,0,0,distrital
+090612,1,Wi-fi,4,0,0,1,distrital
+090613,1,ADSL/DSL,9,0,0,1,distrital
+090614,1,Wi-fi,6,0,0,1,distrital
+090615,1,Satelital,4,0,0,1,distrital
+090616,1,Wi-fi,4,0,0,1,distrital
+090701,1,Fibra óptica,163,0,0,1,provincial_fallback
+090702,1,Satelital,6,0,0,1,distrital
+090703,1,Wi-fi,24,0,0,1,distrital
+090704,1,Fibra óptica,22,0,0,1,distrital
+090705,1,Satelital,80,0,0,1,distrital
+090706,1,Satelital,54,0,0,1,distrital
+090707,1,Móvil/USB,20,0,0,1,distrital
+090709,1,Fibra óptica,11,0,0,1,distrital
+090710,1,Wi-fi,8,0,0,1,distrital
+090711,1,Móvil/USB,14,0,0,1,distrital
+090713,1,Móvil/USB,6,0,0,1,distrital
+090714,1,Fibra óptica,19,0,0,1,distrital
+090715,1,Móvil/USB,11,0,0,1,distrital
+090716,1,Satelital,14,0,0,1,distrital
+090717,1,Móvil/USB,15,0,0,1,distrital
+090718,1,Fibra óptica,17,0,0,1,distrital
+090719,1,Fibra óptica,15,0,0,1,distrital
+090720,1,Móvil/USB,19,0,0,1,distrital
+090721,1,Fibra óptica,15,0,0,1,distrital
+090722,1,Fibra óptica,5,0,0,1,distrital
+090723,1,Móvil/USB,8,0,0,1,distrital
+090724,1,Fibra óptica,14,0,0,1,distrital
+090725,1,Satelital,11,0,0,1,distrital
+100101,1,Fibra óptica,577,0,0,1,provincial_fallback
+100102,1,Móvil/USB,126,0,0,1,distrital
+100103,1,Satelital,57,0,0,1,distrital
+100104,1,Wi-fi,60,0,0,1,distrital
+100105,1,Fibra óptica,12,0,0,1,distrital
+100106,1,Wi-fi,15,0,0,1,distrital
+100107,1,Fibra óptica,18,0,0,1,distrital
+100108,1,Fibra óptica,10,0,0,1,distrital
+100109,1,Fibra óptica,70,0,0,1,distrital
+100110,1,Wi-fi,1,0,0,1,distrital
+100111,1,ADSL/DSL,116,0,0,1,distrital
+100112,1,Satelital,21,0,0,1,distrital
+100113,1,Fibra óptica,17,0,0,1,distrital
+100201,1,Fibra óptica,229,0,0,1,provincial_fallback
+100202,1,Fibra óptica,8,0,0,1,distrital
+100203,1,Wi-fi,3,0,0,1,distrital
+100204,1,Wi-fi,11,0,0,1,distrital
+100205,1,Satelital,15,0,0,1,distrital
+100206,1,Fibra óptica,7,0,0,1,distrital
+100207,1,Fibra óptica,45,0,0,1,distrital
+100208,1,Wi-fi,17,0,0,1,distrital
+100301,1,Fibra óptica,37,0,0,1,provincial_fallback
+100307,1,Wi-fi,11,0,0,1,distrital
+100311,1,Wi-fi,18,0,0,1,distrital
+100313,1,Satelital,12,0,0,1,distrital
+100316,1,Wi-fi,10,0,0,1,distrital
+100317,1,Fibra óptica,7,0,0,1,distrital
+100321,1,Wi-fi,8,0,0,1,distrital
+100322,1,Satelital,5,0,0,1,distrital
+100323,1,Fibra óptica,11,0,0,1,distrital
+100401,1,Satelital,40,0,0,1,provincial_fallback
+100402,1,Satelital,8,0,0,1,distrital
+100403,1,Móvil/USB,7,0,0,1,distrital
+100404,1,Satelital,9,0,0,1,distrital
+100501,1,Fibra óptica,134,0,0,1,provincial_fallback
+100502,1,Fibra óptica,8,0,0,1,distrital
+100503,1,Móvil/USB,10,0,0,1,distrital
+100504,1,Satelital,25,0,0,1,distrital
+100505,1,Fibra óptica,11,0,0,1,distrital
+100506,1,Wi-fi,8,0,0,1,distrital
+100507,1,Fibra óptica,30,0,0,1,distrital
+100508,1,Satelital,5,0,0,1,distrital
+100509,1,Satelital,18,0,0,1,distrital
+100510,1,Fibra óptica,10,0,0,1,distrital
+100511,1,Satelital,11,0,0,1,distrital
+100601,1,Fibra óptica,257,0,0,1,provincial_fallback
+100602,1,Wi-fi,30,0,0,1,distrital
+100603,1,Fibra óptica,2,0,0,1,distrital
+100604,1,Fibra óptica,60,0,0,1,distrital
+100605,1,Wi-fi,34,0,0,1,distrital
+100606,1,ADSL/DSL,55,0,0,1,distrital
+100607,1,Fibra óptica,18,0,0,1,distrital
+100608,1,ADSL/DSL,38,0,0,1,distrital
+100609,1,Fibra óptica,18,0,0,1,distrital
+100610,1,Fibra óptica,11,0,0,1,distrital
+100701,1,Fibra óptica,101,0,0,1,provincial_fallback
+100702,1,Satelital,20,0,0,1,distrital
+100703,1,Satelital,7,0,0,1,distrital
+100704,1,Wi-fi,18,0,0,1,distrital
+100705,1,Satelital,18,0,0,1,distrital
+100801,1,Fibra óptica,91,0,0,1,provincial_fallback
+100802,1,Fibra óptica,26,0,0,1,distrital
+100803,1,Fibra óptica,64,0,0,1,distrital
+100804,1,Fibra óptica,64,0,0,1,distrital
+100901,1,Wi-fi,85,0,0,1,provincial_fallback
+100902,1,Fibra óptica,28,0,0,1,distrital
+100903,1,Wi-fi,11,0,0,1,distrital
+100904,1,Wi-fi,31,0,0,1,distrital
+100905,1,Fibra óptica,35,0,0,1,distrital
+101001,1,Satelital,45,0,0,1,provincial_fallback
+101002,1,Fibra óptica,8,0,0,1,distrital
+101003,1,Fibra óptica,8,0,0,1,distrital
+101004,1,Satelital,5,0,0,1,distrital
+101005,1,Móvil/USB,10,0,0,1,distrital
+101006,1,Fibra óptica,7,0,0,1,distrital
+101007,1,Wi-fi,21,0,0,1,distrital
+101101,1,Fibra óptica,37,0,0,1,provincial_fallback
+101102,1,Satelital,11,0,0,1,distrital
+101103,1,Fibra óptica,10,0,0,1,distrital
+101104,1,Satelital,13,0,0,1,distrital
+101105,1,Fibra óptica,9,0,0,1,distrital
+101106,1,Satelital,1,0,0,1,distrital
+101107,1,Fibra óptica,8,0,0,1,distrital
+101108,1,Satelital,4,0,0,1,distrital
+110101,1,Fibra óptica,361,0,0,1,provincial_fallback
+110102,1,Fibra óptica,76,0,0,1,distrital
+110103,1,Fibra óptica,21,0,0,1,distrital
+110104,1,Fibra óptica,42,0,0,1,distrital
+110105,1,Fibra óptica,18,0,0,1,distrital
+110106,1,Fibra óptica,147,0,0,1,distrital
+110107,1,Móvil/USB,26,0,0,1,distrital
+110108,1,Fibra óptica,99,0,0,1,distrital
+110109,1,Fibra óptica,30,0,0,1,distrital
+110110,1,Fibra óptica,40,0,0,1,distrital
+110111,1,Fibra óptica,48,0,0,1,distrital
+110112,1,Fibra óptica,69,0,0,1,distrital
+110113,1,Wi-fi,13,0,0,1,distrital
+110114,1,Wi-fi,18,0,0,1,distrital
+110201,1,Fibra óptica,110,0,0,1,provincial_fallback
+110202,1,ADSL/DSL,47,0,0,1,distrital
+110203,1,Wi-fi,17,0,0,1,distrital
+110204,1,Fibra óptica,80,0,0,1,distrital
+110205,1,ADSL/DSL,50,0,0,1,distrital
+110206,1,Wi-fi,61,0,0,1,distrital
+110207,1,Fibra óptica,79,0,0,1,distrital
+110208,1,Fibra óptica,14,0,0,1,distrital
+110209,1,Fibra óptica,14,0,0,1,distrital
+110210,1,Fibra óptica,71,0,0,1,distrital
+110211,1,Móvil/USB,20,0,0,1,distrital
+110301,1,Fibra óptica,208,0,0,1,provincial_fallback
+110302,1,Fibra óptica,11,0,0,1,distrital
+110303,1,Fibra óptica,38,0,0,1,distrital
+110304,1,Fibra óptica,182,0,0,1,distrital
+110305,1,Fibra óptica,120,0,0,1,distrital
+110401,1,Fibra óptica,22,0,0,1,provincial_fallback
+110402,1,Wi-fi,14,0,0,1,distrital
+110403,1,Wi-fi,14,0,0,1,distrital
+110404,1,Fibra óptica,8,0,0,1,distrital
+110405,1,Satelital,6,0,0,1,distrital
+110501,1,Fibra óptica,301,0,0,1,provincial_fallback
+110502,1,Fibra óptica,30,0,0,1,distrital
+110503,1,Satelital,34,0,0,1,distrital
+110504,1,Fibra óptica,18,0,0,1,distrital
+110505,1,Fibra óptica,100,0,0,1,distrital
+110506,1,Fibra óptica,79,0,0,1,distrital
+110507,1,Fibra óptica,94,0,0,1,distrital
+110508,1,Fibra óptica,83,0,0,1,distrital
+120101,1,Fibra óptica,460,0,0,1,provincial_fallback
+120104,1,Fibra óptica,7,0,0,1,distrital
+120105,0,Sin conexión,,0,0,0,distrital
+120106,1,Wi-fi,5,0,0,1,distrital
+120107,1,Fibra óptica,156,0,0,1,distrital
+120108,1,Wi-fi,1,0,0,1,distrital
+120111,1,Fibra óptica,10,0,0,1,distrital
+120112,1,Satelital,6,0,0,1,distrital
+120113,1,Wi-fi,5,0,0,1,distrital
+120114,1,Wi-fi,492,0,0,1,distrital
+120116,1,Fibra óptica,10,0,0,1,distrital
+120117,1,Fibra óptica,24,0,0,1,distrital
+120119,1,ADSL/DSL,72,0,0,1,distrital
+120120,1,Móvil/USB,8,0,0,1,distrital
+120121,1,Fibra óptica,16,0,0,1,distrital
+120122,1,Fibra óptica,9,0,0,1,distrital
+120124,1,Wi-fi,10,0,0,1,distrital
+120125,1,Móvil/USB,50,0,0,1,distrital
+120126,1,Fibra óptica,20,0,0,1,distrital
+120127,1,Fibra óptica,7,0,0,1,distrital
+120128,1,Fibra óptica,20,0,0,1,distrital
+120129,1,Fibra óptica,54,0,0,1,distrital
+120130,1,Fibra óptica,43,0,0,1,distrital
+120132,1,Fibra óptica,9,0,0,1,distrital
+120133,1,Fibra óptica,71,0,0,1,distrital
+120134,1,Fibra óptica,35,0,0,1,distrital
+120135,1,Satelital,19,0,0,1,distrital
+120136,1,Fibra óptica,12,0,0,1,distrital
+120201,1,Fibra óptica,112,0,0,1,provincial_fallback
+120202,1,ADSL/DSL,8,0,0,1,distrital
+120203,1,Wi-fi,4,0,0,1,distrital
+120204,1,Satelital,8,0,0,1,distrital
+120205,1,Fibra óptica,8,0,0,1,distrital
+120206,1,Fibra óptica,1,0,0,1,distrital
+120207,1,Móvil/USB,5,0,0,1,distrital
+120208,1,ADSL/DSL,8,0,0,1,distrital
+120209,1,Satelital,4,0,0,1,distrital
+120210,1,ADSL/DSL,19,0,0,1,distrital
+120211,1,Wi-fi,10,0,0,1,distrital
+120212,1,Fibra óptica,12,0,0,1,distrital
+120213,1,Fibra óptica,31,0,0,1,distrital
+120214,1,Wi-fi,11,0,0,1,distrital
+120215,1,Wi-fi,10,0,0,1,distrital
+120301,1,Fibra óptica,253,0,0,1,provincial_fallback
+120302,1,Fibra óptica,153,0,0,1,distrital
+120303,1,Fibra óptica,168,0,0,1,distrital
+120304,1,Fibra óptica,23,0,0,1,distrital
+120305,1,Fibra óptica,74,0,0,1,distrital
+120306,1,Fibra óptica,32,0,0,1,distrital
+120401,1,ADSL/DSL,108,0,0,1,provincial_fallback
+120402,1,Móvil/USB,15,0,0,1,distrital
+120403,1,Fibra óptica,18,0,0,1,distrital
+120404,1,Fibra óptica,7,0,0,1,distrital
+120405,1,Móvil/USB,6,0,0,1,distrital
+120406,1,Fibra óptica,11,0,0,1,distrital
+120407,1,Wi-fi,8,0,0,1,distrital
+120408,1,ADSL/DSL,7,0,0,1,distrital
+120409,1,ADSL/DSL,10,0,0,1,distrital
+120410,1,Móvil/USB,10,0,0,1,distrital
+120411,1,Fibra óptica,10,0,0,1,distrital
+120412,1,Fibra óptica,5,0,0,1,distrital
+120413,1,Fibra óptica,6,0,0,1,distrital
+120414,1,Móvil/USB,9,0,0,1,distrital
+120415,1,Fibra óptica,9,0,0,1,distrital
+120416,1,Wi-fi,12,0,0,1,distrital
+120417,1,Móvil/USB,4,0,0,1,distrital
+120418,1,Wi-fi,7,0,0,1,distrital
+120419,1,Wi-fi,8,0,0,1,distrital
+120420,1,Fibra óptica,11,0,0,1,distrital
+120421,1,Fibra óptica,12,0,0,1,distrital
+120422,1,Fibra óptica,5,0,0,1,distrital
+120423,1,Wi-fi,9,0,0,1,distrital
+120424,1,Fibra óptica,11,0,0,1,distrital
+120425,1,Móvil/USB,7,0,0,1,distrital
+120426,1,Móvil/USB,7,0,0,1,distrital
+120427,1,Móvil/USB,5,0,0,1,distrital
+120428,1,Fibra óptica,8,0,0,1,distrital
+120429,1,Fibra óptica,9,0,0,1,distrital
+120430,1,Móvil/USB,19,0,0,1,distrital
+120431,1,Fibra óptica,8,0,0,1,distrital
+120432,1,Fibra óptica,5,0,0,1,distrital
+120433,1,Satelital,7,0,0,1,distrital
+120434,1,Fibra óptica,32,0,0,1,distrital
+120501,1,Fibra óptica,38,0,0,1,provincial_fallback
+120502,1,Fibra óptica,27,0,0,1,distrital
+120503,1,Fibra óptica,15,0,0,1,distrital
+120504,1,Satelital,20,0,0,1,distrital
+120601,1,Fibra óptica,377,0,0,1,provincial_fallback
+120602,1,Fibra óptica,25,0,0,1,distrital
+120603,1,Fibra óptica,39,0,0,1,distrital
+120604,1,Fibra óptica,180,0,0,1,distrital
+120605,1,Fibra óptica,26,0,0,1,distrital
+120606,1,Fibra óptica,208,0,0,1,distrital
+120607,1,Fibra óptica,106,0,0,1,distrital
+120608,1,Fibra óptica,110,0,0,1,distrital
+120609,1,Fibra óptica,16,0,0,1,distrital
+120701,1,Fibra óptica,119,0,0,1,provincial_fallback
+120702,1,Fibra óptica,28,0,0,1,distrital
+120703,1,Móvil/USB,9,0,0,1,distrital
+120704,1,ADSL/DSL,31,0,0,1,distrital
+120705,1,Fibra óptica,31,0,0,1,distrital
+120706,1,Satelital,16,0,0,1,distrital
+120707,1,Satelital,18,0,0,1,distrital
+120708,1,ADSL/DSL,10,0,0,1,distrital
+120709,1,Móvil/USB,26,0,0,1,distrital
+120801,1,Fibra óptica,105,0,0,1,provincial_fallback
+120802,1,Móvil/USB,9,0,0,1,distrital
+120803,1,Fibra óptica,22,0,0,1,distrital
+120804,1,Wi-fi,15,0,0,1,distrital
+120805,1,Fibra óptica,33,0,0,1,distrital
+120806,1,Wi-fi,12,0,0,1,distrital
+120807,1,Satelital,29,0,0,1,distrital
+120808,1,Móvil/USB,34,0,0,1,distrital
+120809,1,Satelital,5,0,0,1,distrital
+120810,1,Fibra óptica,30,0,0,1,distrital
+120901,1,Fibra óptica,120,0,0,1,provincial_fallback
+120902,1,Fibra óptica,18,0,0,1,distrital
+120903,1,Móvil/USB,10,0,0,1,distrital
+120904,1,ADSL/DSL,11,0,0,1,distrital
+120905,1,Fibra óptica,25,0,0,1,distrital
+120906,1,Wi-fi,10,0,0,1,distrital
+120907,1,Fibra óptica,13,0,0,1,distrital
+120908,1,Wi-fi,10,0,0,1,distrital
+120909,1,Satelital,22,0,0,1,distrital
+130101,1,Fibra óptica,826,0,0,1,provincial_fallback
+130102,1,Fibra óptica,162,0,0,1,distrital
+130103,1,Fibra óptica,75,0,0,1,distrital
+130104,1,Fibra óptica,122,0,0,1,distrital
+130105,1,Fibra óptica,288,0,0,1,distrital
+130106,1,Fibra óptica,109,0,0,1,distrital
+130107,1,Fibra óptica,128,0,0,1,distrital
+130108,1,Wi-fi,30,0,0,1,distrital
+130109,1,Fibra óptica,86,0,0,1,distrital
+130110,1,Fibra óptica,29,0,0,1,distrital
+130111,1,Fibra óptica,119,0,0,1,distrital
+130112,1,Fibra óptica,47,0,0,1,distrital
+130201,1,Fibra óptica,74,0,0,1,provincial_fallback
+130202,1,Fibra óptica,52,0,0,1,distrital
+130203,1,Fibra óptica,38,0,0,1,distrital
+130204,1,Satelital,8,0,0,1,distrital
+130205,1,ADSL/DSL,58,0,0,1,distrital
+130206,1,Móvil/USB,41,0,0,1,distrital
+130207,1,Fibra óptica,46,0,0,1,distrital
+130208,1,Fibra óptica,67,0,0,1,distrital
+130301,1,Fibra óptica,40,0,0,1,provincial_fallback
+130302,1,Móvil/USB,8,0,0,1,distrital
+130303,1,Móvil/USB,13,0,0,1,distrital
+130304,1,Fibra óptica,5,0,0,1,distrital
+130305,1,Satelital,5,0,0,1,distrital
+130306,1,Satelital,3,0,0,1,distrital
+130401,1,Fibra óptica,211,0,0,1,provincial_fallback
+130402,1,Wi-fi,65,0,0,1,distrital
+130403,1,Fibra óptica,30,0,0,1,distrital
+130501,1,Fibra óptica,83,0,0,1,provincial_fallback
+130502,1,Satelital,19,0,0,1,distrital
+130503,1,Móvil/USB,12,0,0,1,distrital
+130504,1,Satelital,19,0,0,1,distrital
+130601,1,Fibra óptica,160,0,0,1,provincial_fallback
+130602,1,ADSL/DSL,28,0,0,1,distrital
+130604,1,Satelital,2,0,0,1,distrital
+130605,1,Satelital,9,0,0,1,distrital
+130606,1,Satelital,2,0,0,1,distrital
+130608,1,Fibra óptica,14,0,0,1,distrital
+130610,0,Sin conexión,,0,0,0,distrital
+130611,1,Satelital,23,0,0,1,distrital
+130613,1,Satelital,30,0,0,1,distrital
+130614,1,Wi-fi,65,0,0,1,distrital
+130701,1,Fibra óptica,87,0,0,1,provincial_fallback
+130702,1,Fibra óptica,75,0,0,1,distrital
+130703,1,Wi-fi,12,0,0,1,distrital
+130704,1,Fibra óptica,119,0,0,1,distrital
+130705,1,Fibra óptica,35,0,0,1,distrital
+130801,1,Fibra óptica,122,0,0,1,provincial_fallback
+130802,1,Satelital,15,0,0,1,distrital
+130803,1,Satelital,33,0,0,1,distrital
+130804,1,Satelital,28,0,0,1,distrital
+130805,1,Satelital,11,0,0,1,distrital
+130806,1,Satelital,11,0,0,1,distrital
+130807,1,Satelital,6,0,0,1,distrital
+130808,1,Fibra óptica,54,0,0,1,distrital
+130809,1,Fibra óptica,32,0,0,1,distrital
+130810,1,Móvil/USB,12,0,0,1,distrital
+130811,1,Satelital,11,0,0,1,distrital
+130812,1,Wi-fi,10,0,0,1,distrital
+130813,1,Wi-fi,11,0,0,1,distrital
+130901,1,Fibra óptica,304,0,0,1,provincial_fallback
+130902,1,Satelital,63,0,0,1,distrital
+130903,1,Móvil/USB,29,0,0,1,distrital
+130904,1,Fibra óptica,16,0,0,1,distrital
+130905,1,Fibra óptica,42,0,0,1,distrital
+130906,1,Satelital,61,0,0,1,distrital
+130907,1,Fibra óptica,34,0,0,1,distrital
+130908,1,Fibra óptica,60,0,0,1,distrital
+131001,1,Fibra óptica,98,0,0,1,provincial_fallback
+131002,1,Móvil/USB,10,0,0,1,distrital
+131003,1,Fibra óptica,48,0,0,1,distrital
+131004,1,Satelital,6,0,0,1,distrital
+131005,1,Móvil/USB,15,0,0,1,distrital
+131006,1,ADSL/DSL,43,0,0,1,distrital
+131007,1,Móvil/USB,12,0,0,1,distrital
+131008,1,Wi-fi,15,0,0,1,distrital
+131101,1,Satelital,85,0,0,1,provincial_fallback
+131102,1,Fibra óptica,19,0,0,1,distrital
+131103,1,Móvil/USB,5,0,0,1,distrital
+131104,1,Satelital,10,0,0,1,distrital
+131201,1,Fibra óptica,191,0,0,1,provincial_fallback
+131202,1,Fibra óptica,105,0,0,1,distrital
+131203,1,Wi-fi,35,0,0,1,distrital
+140101,1,Fibra óptica,450,0,0,1,provincial_fallback
+140102,1,Fibra óptica,33,0,0,1,distrital
+140103,1,Fibra óptica,33,0,0,1,distrital
+140104,1,Fibra óptica,19,0,0,1,distrital
+140105,1,Fibra óptica,159,0,0,1,distrital
+140106,1,Fibra óptica,157,0,0,1,distrital
+140107,1,ADSL/DSL,24,0,0,1,distrital
+140108,1,Fibra óptica,64,0,0,1,distrital
+140109,1,Fibra óptica,7,0,0,1,distrital
+140110,1,Wi-fi,15,0,0,1,distrital
+140111,1,Fibra óptica,18,0,0,1,distrital
+140112,1,Fibra óptica,203,0,0,1,distrital
+140113,1,Fibra óptica,41,0,0,1,distrital
+140114,1,Wi-fi,28,0,0,1,distrital
+140115,1,Móvil/USB,11,0,0,1,distrital
+140116,1,Fibra óptica,19,0,0,1,distrital
+140117,1,Wi-fi,49,0,0,1,distrital
+140118,1,Fibra óptica,56,0,0,1,distrital
+140119,1,Fibra óptica,30,0,0,1,distrital
+140120,1,Fibra óptica,38,0,0,1,distrital
+140201,1,Fibra óptica,148,0,0,1,provincial_fallback
+140202,1,Fibra óptica,41,0,0,1,distrital
+140203,1,Fibra óptica,30,0,0,1,distrital
+140204,1,Wi-fi,33,0,0,1,distrital
+140205,1,Wi-fi,38,0,0,1,distrital
+140206,1,Fibra óptica,58,0,0,1,distrital
+140301,1,Fibra óptica,328,0,0,1,provincial_fallback
+140302,1,Wi-fi,9,0,0,1,distrital
+140303,1,Fibra óptica,46,0,0,1,distrital
+140304,1,Fibra óptica,56,0,0,1,distrital
+140305,1,Fibra óptica,64,0,0,1,distrital
+140306,1,Fibra óptica,81,0,0,1,distrital
+140307,1,Fibra óptica,83,0,0,1,distrital
+140308,1,Fibra óptica,133,0,0,1,distrital
+140309,1,Fibra óptica,18,0,0,1,distrital
+140310,1,Fibra óptica,16,0,0,1,distrital
+140311,1,Fibra óptica,56,0,0,1,distrital
+140312,1,Fibra óptica,62,0,0,1,distrital
+150101,1,Fibra óptica,2539,0,0,1,provincial_fallback
+150102,1,Fibra óptica,113,0,0,1,distrital
+150103,1,Fibra óptica,905,0,0,1,distrital
+150104,1,Fibra óptica,210,0,0,1,distrital
+150105,1,Fibra óptica,159,0,0,1,distrital
+150106,1,Fibra óptica,384,0,0,1,distrital
+150107,1,Fibra óptica,182,0,0,1,distrital
+150108,1,Fibra óptica,420,0,0,1,distrital
+150109,1,Fibra óptica,150,0,0,1,distrital
+150110,1,Fibra óptica,518,0,0,1,distrital
+150111,1,Wi-fi,170,0,0,1,distrital
+150112,1,Móvil/USB,189,0,0,1,distrital
+150113,1,Fibra óptica,481,0,0,1,distrital
+150114,1,Fibra óptica,529,0,0,1,distrital
+150115,1,Fibra óptica,927,0,0,1,distrital
+150116,1,Fibra óptica,391,0,0,1,distrital
+150117,1,Fibra óptica,275,0,0,1,distrital
+150118,1,Fibra óptica,502,0,0,1,distrital
+150119,1,Fibra óptica,279,0,0,1,distrital
+150120,1,Fibra óptica,303,0,0,1,distrital
+150121,1,Fibra óptica,319,0,0,1,distrital
+150122,1,Fibra óptica,853,0,0,1,distrital
+150123,1,Fibra óptica,342,0,0,1,distrital
+150124,1,Fibra óptica,118,0,0,1,distrital
+150125,1,Fibra óptica,447,0,0,1,distrital
+150126,1,Fibra óptica,142,0,0,1,distrital
+150127,1,Fibra óptica,100,0,0,1,distrital
+150128,1,Fibra óptica,75,0,0,1,distrital
+150129,1,Fibra óptica,90,0,0,1,distrital
+150130,1,Fibra óptica,713,0,0,1,distrital
+150131,1,Fibra óptica,1026,0,0,1,distrital
+150132,1,Fibra óptica,643,0,0,1,distrital
+150133,1,Fibra óptica,419,0,0,1,distrital
+150134,1,Fibra óptica,133,0,0,1,distrital
+150135,1,Fibra óptica,575,0,0,1,distrital
+150136,1,Fibra óptica,263,0,0,1,distrital
+150137,1,Fibra óptica,221,0,0,1,distrital
+150138,1,Fibra óptica,70,0,0,1,distrital
+150139,1,Fibra óptica,71,0,0,1,distrital
+150140,1,Fibra óptica,762,0,0,1,distrital
+150141,1,Wi-fi,187,0,0,1,distrital
+150142,1,Fibra óptica,357,0,0,1,distrital
+150143,1,Fibra óptica,449,0,0,1,distrital
+150201,1,Fibra óptica,231,0,0,1,provincial_fallback
+150202,1,ADSL/DSL,40,0,0,1,distrital
+150203,1,Fibra óptica,57,0,0,1,distrital
+150204,1,Fibra óptica,94,0,0,1,distrital
+150205,1,Fibra óptica,31,0,0,1,distrital
+150301,1,Móvil/USB,15,0,0,1,provincial_fallback
+150302,1,Móvil/USB,6,0,0,1,distrital
+150303,1,Wi-fi,7,0,0,1,distrital
+150304,0,Sin conexión,,0,0,0,distrital
+150305,1,Fibra óptica,5,0,0,1,distrital
+150401,1,Wi-fi,30,0,0,1,provincial_fallback
+150402,1,Fibra óptica,8,0,0,1,distrital
+150403,1,Satelital,5,0,0,1,distrital
+150404,1,Fibra óptica,5,0,0,1,distrital
+150405,1,Wi-fi,4,0,0,1,distrital
+150406,0,Sin conexión,,0,0,0,distrital
+150407,1,Fibra óptica,16,0,0,1,distrital
+150501,1,Fibra óptica,283,0,0,1,provincial_fallback
+150502,1,Fibra óptica,126,0,0,1,distrital
+150503,1,Satelital,21,0,0,1,distrital
+150504,1,Fibra óptica,55,0,0,1,distrital
+150505,1,Fibra óptica,197,0,0,1,distrital
+150506,1,Wi-fi,11,0,0,1,distrital
+150507,1,ADSL/DSL,83,0,0,1,distrital
+150508,1,Móvil/USB,45,0,0,1,distrital
+150509,1,Fibra óptica,115,0,0,1,distrital
+150510,1,Fibra óptica,90,0,0,1,distrital
+150511,1,Fibra óptica,13,0,0,1,distrital
+150512,1,Móvil/USB,60,0,0,1,distrital
+150513,1,Fibra óptica,60,0,0,1,distrital
+150514,1,Fibra óptica,35,0,0,1,distrital
+150515,1,Wi-fi,33,0,0,1,distrital
+150516,1,Fibra óptica,9,0,0,1,distrital
+150601,1,Fibra óptica,356,0,0,1,provincial_fallback
+150602,1,Móvil/USB,8,0,0,1,distrital
+150603,0,Sin conexión,,0,0,0,distrital
+150604,1,Fibra óptica,92,0,0,1,distrital
+150605,1,Fibra óptica,132,0,0,1,distrital
+150606,1,Fibra óptica,9,0,0,1,distrital
+150607,1,Wi-fi,6,0,0,1,distrital
+150608,1,Satelital,7,0,0,1,distrital
+150609,1,Fibra óptica,5,0,0,1,distrital
+150610,0,Sin conexión,,0,0,0,distrital
+150611,1,Fibra óptica,7,0,0,1,distrital
+150612,1,Fibra óptica,9,0,0,1,distrital
+150701,1,Fibra óptica,118,0,0,1,provincial_fallback
+150702,1,Satelital,4,0,0,1,distrital
+150703,1,Fibra óptica,1,0,0,1,distrital
+150704,1,Fibra óptica,7,0,0,1,distrital
+150705,1,Wi-fi,20,0,0,1,distrital
+150706,0,Sin conexión,,0,0,0,distrital
+150707,1,ADSL/DSL,12,0,0,1,distrital
+150708,1,Fibra óptica,13,0,0,1,distrital
+150709,0,Sin conexión,,0,0,0,distrital
+150710,1,Móvil/USB,2,0,0,1,distrital
+150711,1,Móvil/USB,10,0,0,1,distrital
+150712,1,Fibra óptica,5,0,0,1,distrital
+150713,1,Móvil/USB,5,0,0,1,distrital
+150714,1,Fibra óptica,18,0,0,1,distrital
+150715,1,Wi-fi,4,0,0,1,distrital
+150716,1,Fibra óptica,80,0,0,1,distrital
+150717,1,Fibra óptica,10,0,0,1,distrital
+150718,1,ADSL/DSL,7,0,0,1,distrital
+150719,1,Fibra óptica,5,0,0,1,distrital
+150720,1,Wi-fi,7,0,0,1,distrital
+150721,1,Wi-fi,9,0,0,1,distrital
+150722,1,Satelital,45,0,0,1,distrital
+150723,1,Satelital,8,0,0,1,distrital
+150724,1,Fibra óptica,10,0,0,1,distrital
+150725,0,Sin conexión,,0,0,0,distrital
+150726,1,Satelital,3,0,0,1,distrital
+150727,1,Satelital,15,0,0,1,distrital
+150728,1,Fibra óptica,45,0,0,1,distrital
+150729,1,Satelital,6,0,0,1,distrital
+150730,1,Fibra óptica,8,0,0,1,distrital
+150731,1,Fibra óptica,31,0,0,1,distrital
+150732,1,Wi-fi,10,0,0,1,distrital
+150801,1,Fibra óptica,405,0,0,1,provincial_fallback
+150802,1,Wi-fi,13,0,0,1,distrital
+150803,1,Fibra óptica,20,0,0,1,distrital
+150804,1,Wi-fi,7,0,0,1,distrital
+150805,1,Fibra óptica,74,0,0,1,distrital
+150806,1,Fibra óptica,86,0,0,1,distrital
+150807,1,Wi-fi,10,0,0,1,distrital
+150808,1,Móvil/USB,9,0,0,1,distrital
+150809,1,Wi-fi,8,0,0,1,distrital
+150810,1,Fibra óptica,102,0,0,1,distrital
+150811,1,Fibra óptica,137,0,0,1,distrital
+150812,1,Fibra óptica,100,0,0,1,distrital
+150901,1,Fibra óptica,112,0,0,1,provincial_fallback
+150902,1,Móvil/USB,11,0,0,1,distrital
+150903,1,Fibra óptica,5,0,0,1,distrital
+150904,1,Fibra óptica,6,0,0,1,distrital
+150905,1,Móvil/USB,4,0,0,1,distrital
+150906,1,Fibra óptica,21,0,0,1,distrital
+151001,1,Satelital,8,0,0,1,provincial_fallback
+151002,1,Wi-fi,6,0,0,1,distrital
+151003,1,Wi-fi,3,0,0,1,distrital
+151004,1,Satelital,8,0,0,1,distrital
+151005,0,Sin conexión,,0,0,0,distrital
+151006,1,ADSL/DSL,10,0,0,1,distrital
+151007,1,Fibra óptica,5,0,0,1,distrital
+151008,1,Satelital,1,0,0,1,distrital
+151009,1,Satelital,2,0,0,1,distrital
+151010,0,Sin conexión,,0,0,0,distrital
+151011,1,Wi-fi,1,0,0,1,distrital
+151012,1,Móvil/USB,5,0,0,1,distrital
+151013,1,Móvil/USB,3,0,0,1,distrital
+151014,1,Wi-fi,1,0,0,1,distrital
+151015,1,Satelital,2,0,0,1,distrital
+151016,1,Satelital,10,0,0,1,distrital
+151017,0,Sin conexión,,0,0,0,distrital
+151018,1,Satelital,3,0,0,1,distrital
+151019,1,Wi-fi,6,0,0,1,distrital
+151020,1,Satelital,6,0,0,1,distrital
+151021,1,Fibra óptica,4,0,0,1,distrital
+151022,0,Sin conexión,,0,0,0,distrital
+151023,1,Wi-fi,1,0,0,1,distrital
+151024,1,Satelital,5,0,0,1,distrital
+151025,0,Sin conexión,,0,0,0,distrital
+151026,0,Sin conexión,,0,0,0,distrital
+151027,1,Wi-fi,5,0,0,1,distrital
+151028,1,Wi-fi,2,0,0,1,distrital
+151029,1,Fibra óptica,4,0,0,1,distrital
+151030,1,Fibra óptica,3,0,0,1,distrital
+151031,0,Sin conexión,,0,0,0,distrital
+151032,1,Móvil/USB,3,0,0,1,distrital
+151033,1,Wi-fi,3,0,0,1,distrital
+160101,1,Fibra óptica,250,0,0,1,provincial_fallback
+160102,1,Satelital,20,0,0,1,distrital
+160103,1,Satelital,18,0,0,1,distrital
+160104,1,Satelital,20,0,0,1,distrital
+160105,1,Satelital,29,0,0,1,distrital
+160106,1,Satelital,15,0,0,1,distrital
+160107,1,ADSL/DSL,14,0,0,1,distrital
+160108,1,Fibra óptica,35,0,0,1,distrital
+160110,1,Wi-fi,16,0,0,1,distrital
+160112,1,Fibra óptica,59,0,0,1,distrital
+160113,1,Satelital,200,0,0,1,distrital
+160201,1,Fibra óptica,37,0,0,1,provincial_fallback
+160202,1,Satelital,8,0,0,1,distrital
+160205,1,Móvil/USB,8,0,0,1,distrital
+160206,1,Satelital,30,0,0,1,distrital
+160210,1,Fibra óptica,7,0,0,1,distrital
+160211,1,Móvil/USB,10,0,0,1,distrital
+160301,1,Fibra óptica,95,0,0,1,provincial_fallback
+160302,1,Fibra óptica,12,0,0,1,distrital
+160303,1,Satelital,43,0,0,1,distrital
+160304,1,ADSL/DSL,16,0,0,1,distrital
+160305,1,Fibra óptica,20,0,0,1,distrital
+160401,1,Satelital,113,0,0,1,provincial_fallback
+160402,1,Satelital,45,0,0,1,distrital
+160403,1,Satelital,17,0,0,1,distrital
+160404,1,Satelital,27,0,0,1,distrital
+160501,1,Satelital,73,0,0,1,provincial_fallback
+160502,1,Satelital,7,0,0,1,distrital
+160503,1,Móvil/USB,12,0,0,1,distrital
+160504,1,ADSL/DSL,28,0,0,1,distrital
+160505,1,Satelital,29,0,0,1,distrital
+160506,1,Satelital,5,0,0,1,distrital
+160507,1,Móvil/USB,15,0,0,1,distrital
+160508,1,Wi-fi,3,0,0,1,distrital
+160509,0,Sin conexión,,0,0,0,distrital
+160510,1,Satelital,11,0,0,1,distrital
+160511,1,Wi-fi,17,0,0,1,distrital
+160601,1,Satelital,130,0,0,1,provincial_fallback
+160602,1,Wi-fi,9,0,0,1,distrital
+160603,1,Fibra óptica,5,0,0,1,distrital
+160604,1,Satelital,27,0,0,1,distrital
+160605,1,Wi-fi,20,0,0,1,distrital
+160606,1,Satelital,19,0,0,1,distrital
+160701,1,Satelital,58,0,0,1,provincial_fallback
+160702,1,Wi-fi,18,0,0,1,distrital
+160703,1,Satelital,25,0,0,1,distrital
+160704,1,Satelital,2,0,0,1,distrital
+160705,1,Satelital,12,0,0,1,distrital
+160706,1,Satelital,7,0,0,1,distrital
+160801,1,Wi-fi,27,0,0,1,provincial_fallback
+160802,1,Wi-fi,10,0,0,1,distrital
+160803,1,Satelital,19,0,0,1,distrital
+160804,1,Wi-fi,8,0,0,1,distrital
+170101,1,Fibra óptica,413,0,0,1,provincial_fallback
+170102,1,Fibra óptica,56,0,0,1,distrital
+170103,1,Fibra óptica,56,0,0,1,distrital
+170104,1,Fibra óptica,30,0,0,1,distrital
+170201,1,Satelital,38,0,0,1,provincial_fallback
+170202,1,Satelital,11,0,0,1,distrital
+170203,1,Fibra óptica,64,0,0,1,distrital
+170204,1,Fibra óptica,26,0,0,1,distrital
+170301,1,Fibra óptica,30,0,0,1,provincial_fallback
+170302,1,Fibra óptica,32,0,0,1,distrital
+170303,1,Fibra óptica,20,0,0,1,distrital
+180101,1,ADSL/DSL,480,0,0,1,provincial_fallback
+180102,1,Fibra óptica,45,0,0,1,distrital
+180103,1,Wi-fi,18,0,0,1,distrital
+180104,1,Fibra óptica,121,0,0,1,distrital
+180105,1,Móvil/USB,22,0,0,1,distrital
+180106,1,Satelital,172,0,0,1,distrital
+180107,1,Fibra óptica,366,0,0,1,distrital
+180201,1,Wi-fi,69,0,0,1,provincial_fallback
+180202,1,Fibra óptica,13,0,0,1,distrital
+180203,1,Wi-fi,5,0,0,1,distrital
+180204,1,Satelital,30,0,0,1,distrital
+180205,1,Fibra óptica,6,0,0,1,distrital
+180206,1,Satelital,13,0,0,1,distrital
+180207,1,Fibra óptica,6,0,0,1,distrital
+180208,1,Wi-fi,5,0,0,1,distrital
+180209,1,Satelital,15,0,0,1,distrital
+180210,1,Fibra óptica,13,0,0,1,distrital
+180211,1,Satelital,13,0,0,1,distrital
+180301,1,Fibra óptica,295,0,0,1,provincial_fallback
+180302,1,ADSL/DSL,41,0,0,1,distrital
+180303,1,Fibra óptica,62,0,0,1,distrital
+190101,1,Fibra óptica,189,0,0,1,provincial_fallback
+190102,1,Fibra óptica,20,0,0,1,distrital
+190103,1,Fibra óptica,31,0,0,1,distrital
+190104,1,Fibra óptica,72,0,0,1,distrital
+190105,1,Wi-fi,20,0,0,1,distrital
+190106,1,Fibra óptica,16,0,0,1,distrital
+190107,1,Fibra óptica,66,0,0,1,distrital
+190108,1,Fibra óptica,18,0,0,1,distrital
+190109,1,Fibra óptica,45,0,0,1,distrital
+190110,1,Fibra óptica,48,0,0,1,distrital
+190111,1,Fibra óptica,33,0,0,1,distrital
+190112,1,Satelital,16,0,0,1,distrital
+190113,1,Fibra óptica,105,0,0,1,distrital
+190201,1,Fibra óptica,139,0,0,1,provincial_fallback
+190202,1,Fibra óptica,5,0,0,1,distrital
+190203,1,Fibra óptica,13,0,0,1,distrital
+190204,1,Móvil/USB,13,0,0,1,distrital
+190205,1,Fibra óptica,10,0,0,1,distrital
+190206,1,Móvil/USB,52,0,0,1,distrital
+190207,1,Wi-fi,13,0,0,1,distrital
+190208,1,Fibra óptica,20,0,0,1,distrital
+190301,1,Fibra óptica,108,0,0,1,provincial_fallback
+190302,1,Fibra óptica,12,0,0,1,distrital
+190303,1,Fibra óptica,30,0,0,1,distrital
+190304,1,Fibra óptica,42,0,0,1,distrital
+190305,1,Fibra óptica,26,0,0,1,distrital
+190306,1,Fibra óptica,71,0,0,1,distrital
+190307,1,Fibra óptica,109,0,0,1,distrital
+190308,1,Fibra óptica,66,0,0,1,distrital
+200101,1,Fibra óptica,595,0,0,1,provincial_fallback
+200104,1,Fibra óptica,293,0,0,1,distrital
+200105,1,ADSL/DSL,143,0,0,1,distrital
+200107,1,Fibra óptica,47,0,0,1,distrital
+200108,1,ADSL/DSL,28,0,0,1,distrital
+200109,1,Móvil/USB,64,0,0,1,distrital
+200110,1,Fibra óptica,92,0,0,1,distrital
+200111,1,Fibra óptica,95,0,0,1,distrital
+200114,1,Fibra óptica,249,0,0,1,distrital
+200115,1,Fibra óptica,155,0,0,1,distrital
+200201,1,Wi-fi,190,0,0,1,provincial_fallback
+200202,1,Satelital,75,0,0,1,distrital
+200203,1,Wi-fi,18,0,0,1,distrital
+200204,1,Wi-fi,36,0,0,1,distrital
+200205,1,Móvil/USB,5,0,0,1,distrital
+200206,1,Satelital,78,0,0,1,distrital
+200207,1,Wi-fi,59,0,0,1,distrital
+200208,1,Wi-fi,49,0,0,1,distrital
+200209,1,Fibra óptica,20,0,0,1,distrital
+200210,1,Fibra óptica,28,0,0,1,distrital
+200301,1,Fibra óptica,124,0,0,1,provincial_fallback
+200302,1,Fibra óptica,24,0,0,1,distrital
+200303,1,Fibra óptica,43,0,0,1,distrital
+200304,1,Fibra óptica,102,0,0,1,distrital
+200305,1,Wi-fi,8,0,0,1,distrital
+200306,1,Satelital,43,0,0,1,distrital
+200307,1,Fibra óptica,44,0,0,1,distrital
+200308,1,Satelital,44,0,0,1,distrital
+200401,1,Fibra óptica,221,0,0,1,provincial_fallback
+200402,1,Wi-fi,25,0,0,1,distrital
+200403,1,Satelital,16,0,0,1,distrital
+200404,1,Wi-fi,40,0,0,1,distrital
+200405,1,Satelital,67,0,0,1,distrital
+200406,1,Fibra óptica,8,0,0,1,distrital
+200407,1,Satelital,33,0,0,1,distrital
+200408,1,Satelital,18,0,0,1,distrital
+200409,1,Móvil/USB,7,0,0,1,distrital
+200410,1,Satelital,23,0,0,1,distrital
+200501,1,Fibra óptica,226,0,0,1,provincial_fallback
+200502,1,Fibra óptica,11,0,0,1,distrital
+200503,1,Wi-fi,18,0,0,1,distrital
+200504,1,Fibra óptica,53,0,0,1,distrital
+200505,1,Fibra óptica,32,0,0,1,distrital
+200506,1,ADSL/DSL,26,0,0,1,distrital
+200507,1,Satelital,27,0,0,1,distrital
+200601,1,Fibra óptica,380,0,0,1,provincial_fallback
+200602,1,Fibra óptica,90,0,0,1,distrital
+200603,1,ADSL/DSL,42,0,0,1,distrital
+200604,1,Fibra óptica,58,0,0,1,distrital
+200605,1,Satelital,53,0,0,1,distrital
+200606,1,Wi-fi,40,0,0,1,distrital
+200607,1,Fibra óptica,77,0,0,1,distrital
+200608,1,Fibra óptica,15,0,0,1,distrital
+200701,1,Fibra óptica,270,0,0,1,provincial_fallback
+200702,1,Satelital,27,0,0,1,distrital
+200703,1,Fibra óptica,47,0,0,1,distrital
+200704,1,Fibra óptica,50,0,0,1,distrital
+200705,1,Fibra óptica,102,0,0,1,distrital
+200706,1,Fibra óptica,54,0,0,1,distrital
+200801,1,Fibra óptica,203,0,0,1,provincial_fallback
+200802,1,Fibra óptica,31,0,0,1,distrital
+200803,1,Fibra óptica,27,0,0,1,distrital
+200804,1,Wi-fi,13,0,0,1,distrital
+200805,1,Fibra óptica,63,0,0,1,distrital
+200806,1,Fibra óptica,13,0,0,1,distrital
+210101,1,Fibra óptica,537,0,0,1,provincial_fallback
+210102,1,Fibra óptica,66,0,0,1,distrital
+210103,1,Fibra óptica,5,0,0,1,distrital
+210104,1,Fibra óptica,4,0,0,1,distrital
+210105,1,Fibra óptica,27,0,0,1,distrital
+210106,1,Fibra óptica,24,0,0,1,distrital
+210107,1,Fibra óptica,15,0,0,1,distrital
+210108,1,Wi-fi,10,0,0,1,distrital
+210109,1,Fibra óptica,20,0,0,1,distrital
+210110,1,Satelital,17,0,0,1,distrital
+210111,1,Satelital,6,0,0,1,distrital
+210112,1,ADSL/DSL,30,0,0,1,distrital
+210113,1,Wi-fi,6,0,0,1,distrital
+210114,1,Móvil/USB,14,0,0,1,distrital
+210115,1,ADSL/DSL,9,0,0,1,distrital
+210201,1,Fibra óptica,156,0,0,1,provincial_fallback
+210202,1,Fibra óptica,10,0,0,1,distrital
+210203,1,Satelital,13,0,0,1,distrital
+210204,1,Fibra óptica,55,0,0,1,distrital
+210205,1,Móvil/USB,10,0,0,1,distrital
+210206,1,Fibra óptica,24,0,0,1,distrital
+210207,1,Wi-fi,12,0,0,1,distrital
+210208,1,Fibra óptica,30,0,0,1,distrital
+210209,1,Fibra óptica,24,0,0,1,distrital
+210210,1,Fibra óptica,45,0,0,1,distrital
+210211,1,Wi-fi,31,0,0,1,distrital
+210212,1,Fibra óptica,9,0,0,1,distrital
+210213,1,Wi-fi,10,0,0,1,distrital
+210214,1,Wi-fi,9,0,0,1,distrital
+210215,1,Fibra óptica,10,0,0,1,distrital
+210301,1,Fibra óptica,203,0,0,1,provincial_fallback
+210302,1,Fibra óptica,30,0,0,1,distrital
+210303,1,Fibra óptica,10,0,0,1,distrital
+210304,1,Fibra óptica,37,0,0,1,distrital
+210305,1,Satelital,34,0,0,1,distrital
+210306,1,Fibra óptica,45,0,0,1,distrital
+210307,1,Satelital,16,0,0,1,distrital
+210308,1,Fibra óptica,16,0,0,1,distrital
+210309,1,Satelital,27,0,0,1,distrital
+210310,1,Satelital,69,0,0,1,distrital
+210401,1,Fibra óptica,260,0,0,1,provincial_fallback
+210402,1,Fibra óptica,36,0,0,1,distrital
+210403,1,Móvil/USB,6,0,0,1,distrital
+210404,1,Móvil/USB,1,0,0,1,distrital
+210405,1,Fibra óptica,29,0,0,1,distrital
+210406,1,Fibra óptica,49,0,0,1,distrital
+210407,1,Fibra óptica,40,0,0,1,distrital
+210501,1,Fibra óptica,254,0,0,1,provincial_fallback
+210502,1,Wi-fi,10,0,0,1,distrital
+210503,1,Satelital,10,0,0,1,distrital
+210504,1,Fibra óptica,18,0,0,1,distrital
+210505,1,Fibra óptica,9,0,0,1,distrital
+210601,1,Fibra óptica,116,0,0,1,provincial_fallback
+210602,0,Sin conexión,,0,0,0,distrital
+210603,1,Satelital,12,0,0,1,distrital
+210604,1,Wi-fi,1,0,0,1,distrital
+210605,1,Fibra óptica,15,0,0,1,distrital
+210606,1,Fibra óptica,6,0,0,1,distrital
+210607,1,Wi-fi,41,0,0,1,distrital
+210608,1,Wi-fi,5,0,0,1,distrital
+210701,1,Fibra óptica,97,0,0,1,provincial_fallback
+210702,1,Fibra óptica,18,0,0,1,distrital
+210703,0,Sin conexión,,0,0,0,distrital
+210704,1,Wi-fi,2,0,0,1,distrital
+210705,1,Satelital,3,0,0,1,distrital
+210706,1,Móvil/USB,2,0,0,1,distrital
+210707,1,Satelital,13,0,0,1,distrital
+210708,1,ADSL/DSL,17,0,0,1,distrital
+210709,1,ADSL/DSL,36,0,0,1,distrital
+210710,1,Fibra óptica,12,0,0,1,distrital
+210801,1,Fibra óptica,161,0,0,1,provincial_fallback
+210802,1,Fibra óptica,25,0,0,1,distrital
+210803,1,Fibra óptica,12,0,0,1,distrital
+210804,1,Fibra óptica,8,0,0,1,distrital
+210805,1,Satelital,46,0,0,1,distrital
+210806,1,Fibra óptica,33,0,0,1,distrital
+210807,1,Fibra óptica,13,0,0,1,distrital
+210808,1,Wi-fi,30,0,0,1,distrital
+210809,1,Satelital,8,0,0,1,distrital
+210901,1,Fibra óptica,90,0,0,1,provincial_fallback
+210902,1,Wi-fi,13,0,0,1,distrital
+210903,1,Fibra óptica,5,0,0,1,distrital
+210904,1,Satelital,5,0,0,1,distrital
+211001,1,Fibra óptica,50,0,0,1,provincial_fallback
+211002,1,Fibra óptica,46,0,0,1,distrital
+211003,1,Wi-fi,20,0,0,1,distrital
+211004,1,Móvil/USB,4,0,0,1,distrital
+211005,1,Móvil/USB,5,0,0,1,distrital
+211101,1,Fibra óptica,250,0,0,1,provincial_fallback
+211102,1,Wi-fi,5,0,0,1,distrital
+211103,1,Fibra óptica,31,0,0,1,distrital
+211104,1,Fibra óptica,33,0,0,1,distrital
+211105,1,Fibra óptica,142,0,0,1,distrital
+211201,1,Fibra óptica,47,0,0,1,provincial_fallback
+211202,1,Fibra óptica,11,0,0,1,distrital
+211203,1,Fibra óptica,14,0,0,1,distrital
+211204,1,Satelital,13,0,0,1,distrital
+211205,1,ADSL/DSL,10,0,0,1,distrital
+211206,1,Satelital,5,0,0,1,distrital
+211207,1,Fibra óptica,12,0,0,1,distrital
+211208,1,Fibra óptica,2,0,0,1,distrital
+211209,1,Satelital,1,0,0,1,distrital
+211210,1,Fibra óptica,26,0,0,1,distrital
+211301,1,Fibra óptica,122,0,0,1,provincial_fallback
+211302,1,ADSL/DSL,6,0,0,1,distrital
+211303,1,Wi-fi,4,0,0,1,distrital
+211304,1,Satelital,5,0,0,1,distrital
+211305,0,Sin conexión,,0,0,0,distrital
+211306,1,Satelital,6,0,0,1,distrital
+211307,1,Wi-fi,6,0,0,1,distrital
+220101,1,Fibra óptica,281,0,0,1,provincial_fallback
+220102,1,Fibra óptica,24,0,0,1,distrital
+220103,1,Fibra óptica,10,0,0,1,distrital
+220104,1,Fibra óptica,53,0,0,1,distrital
+220105,1,Fibra óptica,59,0,0,1,distrital
+220106,1,Wi-fi,12,0,0,1,distrital
+220201,1,Fibra óptica,89,0,0,1,provincial_fallback
+220202,1,Satelital,19,0,0,1,distrital
+220203,1,Wi-fi,38,0,0,1,distrital
+220204,1,Wi-fi,13,0,0,1,distrital
+220205,1,Wi-fi,24,0,0,1,distrital
+220206,1,Wi-fi,22,0,0,1,distrital
+220301,1,Satelital,64,0,0,1,provincial_fallback
+220302,1,Wi-fi,10,0,0,1,distrital
+220303,1,ADSL/DSL,39,0,0,1,distrital
+220304,1,Satelital,23,0,0,1,distrital
+220305,1,Fibra óptica,15,0,0,1,distrital
+220401,1,Fibra óptica,58,0,0,1,provincial_fallback
+220402,1,Fibra óptica,14,0,0,1,distrital
+220403,1,Wi-fi,13,0,0,1,distrital
+220404,1,Wi-fi,12,0,0,1,distrital
+220405,1,Wi-fi,13,0,0,1,distrital
+220406,1,Wi-fi,7,0,0,1,distrital
+220501,1,Wi-fi,145,0,0,1,provincial_fallback
+220502,1,Wi-fi,11,0,0,1,distrital
+220503,1,Wi-fi,18,0,0,1,distrital
+220504,1,Satelital,13,0,0,1,distrital
+220505,1,Wi-fi,10,0,0,1,distrital
+220506,1,Fibra óptica,11,0,0,1,distrital
+220507,1,Fibra óptica,10,0,0,1,distrital
+220508,1,Fibra óptica,10,0,0,1,distrital
+220509,1,Wi-fi,12,0,0,1,distrital
+220510,1,Fibra óptica,24,0,0,1,distrital
+220511,1,Fibra óptica,18,0,0,1,distrital
+220601,1,Fibra óptica,85,0,0,1,provincial_fallback
+220602,1,Wi-fi,34,0,0,1,distrital
+220603,1,Wi-fi,23,0,0,1,distrital
+220604,1,Wi-fi,18,0,0,1,distrital
+220605,1,Satelital,3,0,0,1,distrital
+220701,1,Fibra óptica,62,0,0,1,provincial_fallback
+220702,1,Móvil/USB,8,0,0,1,distrital
+220703,1,Fibra óptica,12,0,0,1,distrital
+220704,1,Wi-fi,4,0,0,1,distrital
+220705,1,Wi-fi,10,0,0,1,distrital
+220706,1,Móvil/USB,8,0,0,1,distrital
+220707,1,Fibra óptica,15,0,0,1,distrital
+220708,1,Satelital,23,0,0,1,distrital
+220709,1,Fibra óptica,8,0,0,1,distrital
+220710,1,ADSL/DSL,10,0,0,1,distrital
+220801,1,Fibra óptica,87,0,0,1,provincial_fallback
+220802,1,Fibra óptica,36,0,0,1,distrital
+220803,1,Fibra óptica,72,0,0,1,distrital
+220804,1,Fibra óptica,157,0,0,1,distrital
+220805,1,Fibra óptica,160,0,0,1,distrital
+220806,1,Fibra óptica,17,0,0,1,distrital
+220807,1,Wi-fi,14,0,0,1,distrital
+220808,1,Wi-fi,19,0,0,1,distrital
+220809,1,Móvil/USB,13,0,0,1,distrital
+220901,1,Fibra óptica,256,0,0,1,provincial_fallback
+220902,1,Móvil/USB,6,0,0,1,distrital
+220903,1,Wi-fi,17,0,0,1,distrital
+220904,1,Fibra óptica,13,0,0,1,distrital
+220905,1,Wi-fi,7,0,0,1,distrital
+220906,1,Fibra óptica,8,0,0,1,distrital
+220907,1,Wi-fi,7,0,0,1,distrital
+220908,1,Fibra óptica,16,0,0,1,distrital
+220909,1,Wi-fi,97,0,0,1,distrital
+220910,1,Fibra óptica,81,0,0,1,distrital
+220911,1,Satelital,9,0,0,1,distrital
+220912,1,Wi-fi,6,0,0,1,distrital
+220913,1,Fibra óptica,20,0,0,1,distrital
+220914,1,Wi-fi,8,0,0,1,distrital
+221001,1,Fibra óptica,120,0,0,1,provincial_fallback
+221002,1,Fibra óptica,39,0,0,1,distrital
+221003,1,Fibra óptica,36,0,0,1,distrital
+221004,1,Wi-fi,5,0,0,1,distrital
+221005,1,Fibra óptica,55,0,0,1,distrital
+221006,1,Satelital,12,0,0,1,distrital
+230101,1,Fibra óptica,642,0,0,1,provincial_fallback
+230102,1,Fibra óptica,77,0,0,1,distrital
+230103,1,Fibra óptica,43,0,0,1,distrital
+230104,1,Fibra óptica,176,0,0,1,distrital
+230105,1,ADSL/DSL,60,0,0,1,distrital
+230106,1,Fibra óptica,17,0,0,1,distrital
+230107,1,Fibra óptica,42,0,0,1,distrital
+230108,1,Fibra óptica,179,0,0,1,distrital
+230109,1,Fibra óptica,72,0,0,1,distrital
+230110,1,Fibra óptica,419,0,0,1,distrital
+230111,1,ADSL/DSL,85,0,0,1,distrital
+230201,1,Wi-fi,35,0,0,1,provincial_fallback
+230202,1,Wi-fi,5,0,0,1,distrital
+230203,1,Móvil/USB,17,0,0,1,distrital
+230204,1,Fibra óptica,9,0,0,1,distrital
+230205,1,Satelital,8,0,0,1,distrital
+230206,1,Satelital,12,0,0,1,distrital
+230301,1,Fibra óptica,250,0,0,1,provincial_fallback
+230302,1,Fibra óptica,155,0,0,1,distrital
+230303,1,Fibra óptica,325,0,0,1,distrital
+230401,1,Móvil/USB,48,0,0,1,provincial_fallback
+230402,1,Móvil/USB,12,0,0,1,distrital
+230403,1,Fibra óptica,7,0,0,1,distrital
+230404,1,Móvil/USB,10,0,0,1,distrital
+230405,0,Sin conexión,,0,0,0,distrital
+230406,1,Móvil/USB,3,0,0,1,distrital
+230407,1,Móvil/USB,11,0,0,1,distrital
+230408,0,Sin conexión,,0,0,0,distrital
+240101,1,Móvil/USB,181,0,0,1,provincial_fallback
+240102,1,Fibra óptica,43,0,0,1,distrital
+240103,1,Fibra óptica,20,0,0,1,distrital
+240104,1,Satelital,19,0,0,1,distrital
+240105,1,Fibra óptica,40,0,0,1,distrital
+240106,1,ADSL/DSL,11,0,0,1,distrital
+240201,1,Fibra óptica,45,0,0,1,provincial_fallback
+240202,1,Wi-fi,14,0,0,1,distrital
+240203,1,Fibra óptica,19,0,0,1,distrital
+240301,1,Fibra óptica,130,0,0,1,provincial_fallback
+240302,1,ADSL/DSL,130,0,0,1,distrital
+240303,1,Fibra óptica,20,0,0,1,distrital
+240304,1,Fibra óptica,42,0,0,1,distrital
+250101,1,Fibra óptica,691,0,0,1,provincial_fallback
+250102,1,Fibra óptica,122,0,0,1,distrital
+250103,1,Satelital,34,0,0,1,distrital
+250104,1,Satelital,31,0,0,1,distrital
+250105,1,Fibra óptica,209,0,0,1,distrital
+250106,1,Fibra óptica,13,0,0,1,distrital
+250107,1,Fibra óptica,280,0,0,1,distrital
+250201,1,Satelital,407,0,0,1,provincial_fallback
+250202,1,Satelital,80,0,0,1,distrital
+250203,1,Satelital,50,0,0,1,distrital
+250204,1,Satelital,19,0,0,1,distrital
+250301,1,Fibra óptica,182,0,0,1,provincial_fallback
+250302,1,Fibra óptica,57,0,0,1,distrital
+250303,1,Satelital,67,0,0,1,distrital
+250304,1,Fibra óptica,44,0,0,1,distrital
+250305,1,Móvil/USB,10,0,0,1,distrital
+250306,1,Satelital,23,0,0,1,distrital
+250307,1,Fibra óptica,31,0,0,1,distrital
+250401,1,Móvil/USB,42,0,0,1,provincial_fallback

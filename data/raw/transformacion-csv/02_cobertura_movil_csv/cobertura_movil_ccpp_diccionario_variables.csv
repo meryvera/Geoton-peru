@@ -1,0 +1,36 @@
+﻿variable,significado,tipo_dbf,tipo_interpretado,longitud_dbf,decimales_dbf,nulos,no_nulos,unicos,minimo,maximo,ejemplo,observaciones
+NUM,Número correlativo del registro dentro de la capa descargada.,F,numérico decimal,19,11,0,108115,108115,1,99999,1,
+CLASIFIC,Clasificación del centro poblado: urbano o rural.,C,texto,10,0,0,108115,2,RURAL,URBANO,URBANO,
+LONG_X,Longitud geográfica del centro poblado en grados decimales.,F,numérico decimal,19,11,0,108115,102188,-68.65902,-81.3057,-77.8725,Coordenada declarada en los atributos; se contrastó contra la geometría Point del shapefile.
+LAT_Y,Latitud geográfica del centro poblado en grados decimales.,F,numérico decimal,19,11,0,108115,102853,-0.09567,-9.99982,-6.22941,Coordenada declarada en los atributos; se contrastó contra la geometría Point del shapefile.
+COB_BIT,Indicador de cobertura móvil del operador Bitel en el centro poblado. Valores esperados: SI/NO.,C,texto,6,0,0,108115,2,NO,SI,SI,Variable categórica de cobertura móvil por operador o cobertura total.
+COB_CLARO,Indicador de cobertura móvil del operador Claro en el centro poblado. Valores esperados: SI/NO.,C,texto,8,0,0,108115,2,NO,SI,SI,Variable categórica de cobertura móvil por operador o cobertura total.
+COB_ENTEL,Indicador de cobertura móvil del operador Entel en el centro poblado. Valores esperados: SI/NO.,C,texto,8,0,0,108115,2,NO,SI,SI,Variable categórica de cobertura móvil por operador o cobertura total.
+COB_MOVIS,Indicador de cobertura móvil del operador Movistar en el centro poblado. Valores esperados: SI/NO.,C,texto,8,0,0,108115,2,NO,SI,SI,Variable categórica de cobertura móvil por operador o cobertura total.
+COB_TOTAL,Indicador general de cobertura móvil en el centro poblado. Usualmente SI cuando al menos un operador registra cobertura.,C,texto,8,0,0,108115,2,NO,SI,SI,Variable categórica de cobertura móvil por operador o cobertura total.
+COD_DPTO,Código del departamento. En esta descarga aparece vacío.,C,texto,2,0,108115,0,0,,,,Campo vacío en todos los registros de esta descarga. Mantener como texto para preservar ceros iniciales si en futuras versiones viene poblado.
+NOM_DPTO,Nombre del departamento.,C,texto,50,0,0,108115,25,AMAZONAS,UCAYALI,AMAZONAS,
+COD_PROV,Código de provincia. En esta descarga aparece vacío.,C,texto,4,0,108115,0,0,,,,Campo vacío en todos los registros de esta descarga. Mantener como texto para preservar ceros iniciales si en futuras versiones viene poblado.
+NOM_PROV,Nombre de provincia.,C,texto,50,0,0,108115,196,ABANCAY,ZARUMILLA,CHACHAPOYAS,
+COD_DIST,Código de distrito. En esta descarga aparece vacío.,C,texto,6,0,108115,0,0,,,,Campo vacío en todos los registros de esta descarga. Mantener como texto para preservar ceros iniciales si en futuras versiones viene poblado.
+NOM_DIST,Nombre de distrito.,C,texto,50,0,0,108115,1735,ABANCAY,ÑAHUIMPUQUIO,CHACHAPOYAS,
+NOMBCCPP,Nombre del centro poblado.,C,texto,60,0,0,108115,70041,02 DE FEBRERO,ÑUÑURI,CHACHAPOYAS,
+IDCCPP,Identificador/código del centro poblado. En esta descarga aparece vacío.,C,texto,10,0,108115,0,0,,,,Campo vacío en todos los registros de esta descarga. Mantener como texto para preservar ceros iniciales si en futuras versiones viene poblado.
+GRUPO_TEMA,Grupo temático asignado por la plataforma GEOPERÚ.,C,texto,30,0,0,108115,1,Infraestructura,Infraestructura,Infraestructura,
+SUB_TEMA,Subtema o capa temática. En este caso: Cobertura Móvil - OSIPTEL.,C,texto,100,0,0,108115,1,Cobertura Móvil - OSIPTEL,Cobertura Móvil - OSIPTEL,Cobertura Móvil - OSIPTEL,
+ENTIDAD,Entidad pública proveedora/responsable de la información.,C,texto,150,0,0,108115,1,Organismo Supervisor de Inversión Privada en Telecomunicaciones,Organismo Supervisor de Inversión Privada en Telecomunicaciones,Organismo Supervisor de Inversión Privada en Telecomunicaciones,
+SIGLA_ENTI,Sigla de la entidad proveedora/responsable.,C,texto,15,0,0,108115,1,OSIPTEL,OSIPTEL,OSIPTEL,
+AREA,Área responsable dentro de la entidad proveedora.,C,texto,150,0,0,108115,1,Dirección de Políticas Regulatorias y Competencia,Dirección de Políticas Regulatorias y Competencia,Dirección de Políticas Regulatorias y Competencia,
+SIGLA_AREA,"Sigla del área responsable, si aplica.",C,texto,15,0,108115,0,0,,,,Campo vacío en todos los registros de esta descarga.
+SUB_AREA,"Subárea responsable, si aplica.",C,texto,150,0,108115,0,0,,,,Campo vacío en todos los registros de esta descarga.
+SIGLA_SUBA,"Sigla de la subárea responsable, si aplica.",C,texto,15,0,108115,0,0,,,,Campo vacío en todos los registros de esta descarga.
+FECHA_DATO,Fecha de corte o vigencia del dato reportado.,D,fecha,8,0,0,108115,1,2025-03-31,2025-03-31,2025-03-31,
+FECHA_PROC,Fecha de procesamiento/publicación del dato en la plataforma.,D,fecha,8,0,0,108115,1,2025-08-26,2025-08-26,2025-08-26,
+TIPO_ENTI,Tipo de entidad pública responsable de la información.,C,texto,50,0,0,108115,1,Organismos Públicos,Organismos Públicos,Organismos Públicos,
+RESP_PROCE,Persona o responsable del procesamiento declarado en la capa.,C,texto,25,0,0,108115,1,Connie Castro,Connie Castro,Connie Castro,
+TIPO_PREC,"Tipo de precisión del dato, si fue informado.",C,texto,20,0,108115,0,0,,,,Campo vacío en todos los registros de esta descarga.
+NOM_PREC,"Nombre/descripción de precisión del dato, si fue informado.",C,texto,50,0,108115,0,0,,,,Campo vacío en todos los registros de esta descarga.
+geom_type,Tipo de geometría espacial derivada del shapefile.,derivada,texto/numérico,,,,,,,,,Campo derivado durante la transformación a CSV.
+geometry_lon,Longitud tomada directamente de la geometría Point.,derivada,texto/numérico,,,,,,,,,Campo derivado durante la transformación a CSV.
+geometry_lat,Latitud tomada directamente de la geometría Point.,derivada,texto/numérico,,,,,,,,,Campo derivado durante la transformación a CSV.
+geometry_wkt,Geometría completa en formato Well-Known Text.,derivada,texto/numérico,,,,,,,,,Campo derivado durante la transformación a CSV.

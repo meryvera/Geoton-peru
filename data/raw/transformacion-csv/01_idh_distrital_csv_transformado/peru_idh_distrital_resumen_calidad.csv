@@ -1,0 +1,14 @@
+﻿control,resultado,detalle
+registros_leidos,1874,Número de entidades leídas desde shapefile
+columnas_originales_atributos,29,"Campos originales del DBF, sin contar geometría"
+crs,EPSG:4326,Sistema de coordenadas leído desde .prj
+encoding,UTF-8,Encoding indicado en archivo .cpg
+ubigeo_unicos,1874,Debe coincidir con número de registros
+ubigeo_duplicados,0,Duplicados en llave territorial UBIGEO
+geometrias_nulas,0,Geometrías nulas
+geometrias_invalidas,0,Geometrías inválidas según shapely
+geometrias_vacias,0,Geometrías vacías
+tipos_geometria,Polygon: 1864; MultiPolygon: 10,Distribución de tipos de geometría
+extent_lonlat,"-81.328230, -18.350928, -68.652279, -0.038606","min_lon, min_lat, max_lon, max_lat"
+fuente_dataset,"Programa de las Naciones Unidas para el Desarrollo (PNUD), 2019. Unidad del Informe sobre Desarrollo Humano. Perú",Fuente declarada en columna FUENTE
+quintiles,Cuarto Quintil: 789; Tercer Quintil: 549; Segundo Quintil: 301; Quinto Quintil: 180; Primer Quintil: 55,Conteo por quintil

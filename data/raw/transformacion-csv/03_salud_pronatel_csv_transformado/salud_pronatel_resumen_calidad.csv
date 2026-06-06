@@ -1,0 +1,20 @@
+﻿control,resultado,detalle
+registros_leidos,3904,Número total de filas leídas desde el shapefile.
+campos_originales_dbf,23,Cantidad de campos de atributos excluyendo geometría.
+crs,EPSG:4326,Sistema de referencia de coordenadas leído.
+epsg,4326,EPSG identificado desde el CRS.
+encoding_cpg,UTF-8,Encoding declarado en archivo .cpg.
+tipo_geometria,Point,Tipos de geometría presentes.
+geometrias_nulas,0,
+geometrias_vacias,0,
+geometrias_invalidas,0,
+coordenadas_fuera_rango_aprox_peru,0,"Validación aproximada: lon [-82.5,-68], lat [-19,0.5]."
+diferencia_max_abs_xcent_vs_geometria,0.0,
+diferencia_max_abs_ycent_vs_geometria,0.0,
+filas_duplicadas_exactas_sin_geometria,0,
+duplicados_misma_clave_establecimiento_ccpp_distrito_nombre,0,"Clave revisada: COD_EST_SL, COD_CCPP, COD_DIST, NOM_EST_SL."
+departamentos_unicos,22,
+provincias_unicas,185,
+distritos_unicos,1373,
+proyectos_unicos,24,
+estado_operativo_valores,NO OPERATIVO: 2439; OPERATIVO: 1465,

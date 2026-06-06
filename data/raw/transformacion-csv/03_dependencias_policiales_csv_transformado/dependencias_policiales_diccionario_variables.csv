@@ -1,0 +1,34 @@
+﻿orden,variable,nombre_largo,descripcion,categoria_analitica,tipo_pandas,tipo_shapefile_dbf,n_registros,n_nulos,n_unicos,valor_minimo,valor_maximo,ejemplo_valor,observaciones_uso
+1,OBJECTID,Identificador interno del objeto,Identificador secuencial/interno del registro dentro de la capa geográfica.,Identificador técnico,float64,float:19,563,0,563,1.0,563.0,1.0,
+2,COD_DPTO,Código de departamento,Código INEI de 2 dígitos del departamento. Mantener como texto para no perder ceros iniciales.,Identificador territorial,string,str:254,563,0,22,,,03,Mantener como texto; no convertir a número.
+3,NOM_DPTO,Nombre de departamento,Nombre del departamento donde se ubica la dependencia policial.,Identificador territorial,string,str:254,563,0,22,,,APURIMAC,
+4,COD_PROV,Código de provincia,Código INEI de 4 dígitos de la provincia. Mantener como texto.,Identificador territorial,string,str:254,563,0,153,,,0301,Mantener como texto; no convertir a número.
+5,NOM_PROV,Nombre de provincia,Nombre de la provincia donde se ubica la dependencia policial.,Identificador territorial,string,str:254,563,0,153,,,ABANCAY,
+6,COD_DIST,Código de distrito,Código INEI de 6 dígitos del distrito. Mantener como texto.,Identificador territorial,string,str:254,563,0,495,,,030104,Mantener como texto; no convertir a número.
+7,NOM_DIST,Nombre de distrito,Nombre del distrito donde se ubica la dependencia policial.,Identificador territorial,string,str:254,563,0,485,,,CURAHUASI,
+8,COD_CCPP,Código de centro poblado,Código del centro poblado asociado a la ubicación de la dependencia policial.,Identificador territorial,string,str:254,563,0,548,,,0301040001,Mantener como texto; no convertir a número.
+9,NOM_CCPP,Nombre de centro poblado,Nombre del centro poblado asociado a la ubicación de la dependencia policial.,Identificador territorial,string,str:254,563,0,538,,,CURAHUASI,
+10,IDCCPP,ID de centro poblado,Identificador del centro poblado. En este dataset coincide con COD_CCPP en los registros revisados.,Llave territorial,string,str:254,563,0,548,,,0301040001,Mantener como texto; no convertir a número.
+11,REGION,Región,Nombre de la región/departamento según el proveedor del dataset.,Identificador territorial,string,str:254,563,0,22,,,APURIMAC,
+12,PROVINCIA,Provincia,Nombre de provincia según el proveedor del dataset.,Identificador territorial,string,str:254,563,0,153,,,ABANCAY,
+13,DISTRITO,Distrito,Nombre de distrito según el proveedor del dataset.,Identificador territorial,string,str:254,563,0,485,,,CURAHUASI,
+14,LOCALIDAD,Localidad,Localidad donde se ubica la dependencia policial.,Ubicación,string,str:254,563,0,538,,,CURAHUASI,
+15,PROYECTO,Proyecto,Proyecto o ámbito de intervención asociado a la dependencia policial.,Metadato operativo,string,str:254,563,0,23,,,[REGIONAL] - [APURIMAC],
+16,ESTADO,Estado operativo,"Estado de la dependencia policial: OPERATIVO o NO OPERATIVO, según la simbología SLD.",Estado operativo,string,str:254,563,0,2,,,OPERATIVO,
+17,COD_ESTADO,Código de estado operativo,"Código numérico del estado. Según SLD: 1 = OPERATIVO, 2 = NO OPERATIVO.",Estado operativo,float64,float:32.10,563,0,2,1.0,2.0,1.0,
+18,NOM_COMISA,Nombre de comisaría/dependencia,Nombre de la comisaría o dependencia policial registrada.,Infraestructura policial,string,str:254,563,0,558,,,CPNP SECTORIAL CURAHUASI - ABANCAY,
+19,CONCATENAR,Campo concatenado territorial,"Concatenación textual de región, provincia y distrito; útil como campo auxiliar pero no como llave principal.",Campo auxiliar,string,str:254,563,0,495,,,APURIMACABANCAYCURAHUASI,
+20,FUENTE,Fuente,Fuente institucional declarada por el dataset.,Metadato,string,str:254,563,0,1,,,"Ministerio de Transportes y Comunicaciones (MTC). Programa Nacional de Telecomunicaciones (PRONATEL), febrero de 2022",
+21,UBIGEO,UBIGEO distrital,Código geográfico distrital de 6 dígitos. Es la llave recomendada para cruces con datasets distritales.,Llave territorial,string,str:254,563,0,495,,,030104,Mantener como texto; no convertir a número.
+22,XCENT,Longitud centroide/punto,Coordenada X/longitud declarada en atributos.,Coordenada,float64,float:32.10,563,0,548,-80.975932,-69.057076,-72.696012,
+23,YCENT,Latitud centroide/punto,Coordenada Y/latitud declarada en atributos.,Coordenada,float64,float:32.10,563,0,548,-18.158166,-0.375355,-13.541302,
+24,geom_type,Tipo de geometría,Tipo espacial de la entidad. Para este dataset es Point.,Geometría derivada,object,derivado/no presente en DBF,563,0,1,,,Point,
+25,geom_lon,Longitud desde geometría,Longitud extraída directamente de la geometría Point.,Geometría derivada,float64,derivado/no presente en DBF,563,0,548,-80.975932,-69.057076,-72.696012,
+26,geom_lat,Latitud desde geometría,Latitud extraída directamente de la geometría Point.,Geometría derivada,float64,derivado/no presente en DBF,563,0,548,-18.158166,-0.375355,-13.541302,
+27,coord_match_xcent,Validación coordenada X,Indica si XCENT coincide con la longitud de la geometría dentro de una tolerancia de 1e-6.,Control de calidad,bool,derivado/no presente en DBF,563,0,1,True,True,True,
+28,coord_match_ycent,Validación coordenada Y,Indica si YCENT coincide con la latitud de la geometría dentro de una tolerancia de 1e-6.,Control de calidad,bool,derivado/no presente en DBF,563,0,1,True,True,True,
+29,geometry_wkt,Geometría WKT,"Punto de ubicación de la dependencia policial en formato WKT, CRS EPSG:4326.",Geometría,object,derivado/no presente en DBF,563,0,548,,,POINT (-72.696012 -13.541302),
+30,bbox_min_lon,Longitud mínima del bounding box,Para puntos coincide con la longitud de la geometría.,Geometría derivada,float64,derivado/no presente en DBF,563,0,548,-80.975932,-69.057076,-72.696012,
+31,bbox_min_lat,Latitud mínima del bounding box,Para puntos coincide con la latitud de la geometría.,Geometría derivada,float64,derivado/no presente en DBF,563,0,548,-18.158166,-0.375355,-13.541302,
+32,bbox_max_lon,Longitud máxima del bounding box,Para puntos coincide con la longitud de la geometría.,Geometría derivada,float64,derivado/no presente en DBF,563,0,548,-80.975932,-69.057076,-72.696012,
+33,bbox_max_lat,Latitud máxima del bounding box,Para puntos coincide con la latitud de la geometría.,Geometría derivada,float64,derivado/no presente en DBF,563,0,548,-18.158166,-0.375355,-13.541302,

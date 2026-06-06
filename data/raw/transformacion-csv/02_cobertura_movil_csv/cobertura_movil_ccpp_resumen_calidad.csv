@@ -1,0 +1,43 @@
+﻿control,valor,observacion
+dataset,Cobertura móvil por centro poblado - 1er trimestre 2025,Identificación inferida del nombre de archivo y campo SUB_TEMA.
+registros_leidos,108115,Número total de registros en el shapefile.
+campos_originales_dbf,31,Cantidad de campos originales en la tabla DBF.
+tipo_geometria,POINT,Tipo de geometría del shapefile.
+crs_prj,GCS_WGS_1984 / WGS84 geographic coordinates,Proyección leída desde archivo .prj.
+epsg_estimado,EPSG:4326,Estimado a partir del .prj.
+encoding_lectura,utf-8,No se adjuntó .cpg; lectura UTF-8 funcionó correctamente.
+geometrias_vacias,0,Registros sin puntos geométricos.
+coordenadas_fuera_rango_peru_aprox,0,Validación aproximada de longitud/latitud para Perú.
+diferencias_atributo_vs_geometria,0,Diferencia entre LONG_X/LAT_Y y coordenadas de la geometría mayor a 1e-5.
+duplicados_por_nombre_y_coordenada,5,Filas duplicadas usando departamento/provincia/distrito/centro poblado/coordenada redondeada.
+departamentos_unicos,25,Conteo por NOM_DPTO.
+provincias_unicas_nombre_contexto,196,Conteo por NOM_DPTO + NOM_PROV.
+distritos_unicos_nombre_contexto,1891,Conteo por NOM_DPTO + NOM_PROV + NOM_DIST.
+clasificacion_RURAL,104361,Distribución de CLASIFIC.
+clasificacion_URBANO,3754,Distribución de CLASIFIC.
+COB_BIT_NO,62459,Distribución de valores en COB_BIT.
+COB_BIT_SI,45656,Distribución de valores en COB_BIT.
+COB_CLARO_NO,54067,Distribución de valores en COB_CLARO.
+COB_CLARO_SI,54048,Distribución de valores en COB_CLARO.
+COB_ENTEL_SI,56852,Distribución de valores en COB_ENTEL.
+COB_ENTEL_NO,51263,Distribución de valores en COB_ENTEL.
+COB_MOVIS_SI,71326,Distribución de valores en COB_MOVIS.
+COB_MOVIS_NO,36789,Distribución de valores en COB_MOVIS.
+COB_TOTAL_SI,82400,Distribución de valores en COB_TOTAL.
+COB_TOTAL_NO,25715,Distribución de valores en COB_TOTAL.
+combo_operadores_SI_SI_SI_SI,29221,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_NO_NO_NO_NO,25715,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_NO_SI_SI_SI,9858,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_NO_NO_NO_SI,9852,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_NO_NO_SI_SI,7269,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_NO_SI_NO_SI,4539,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_SI_NO_SI_SI,4089,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_SI_SI_NO_SI,3587,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_SI_NO_NO_SI,2911,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_SI_SI_SI_NO,2548,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_NO_SI_NO_NO,2009,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_NO_NO_SI_NO,1869,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_SI_NO_NO_NO,1712,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_NO_SI_SI_NO,1348,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_SI_SI_NO_NO,938,Combinación BITEL/CLARO/ENTEL/MOVISTAR.
+combo_operadores_SI_NO_SI_NO,650,Combinación BITEL/CLARO/ENTEL/MOVISTAR.

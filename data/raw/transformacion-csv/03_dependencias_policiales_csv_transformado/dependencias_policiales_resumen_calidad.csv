@@ -1,0 +1,19 @@
+﻿control,resultado,detalle
+registros_leidos,563,Número de entidades leídas desde shapefile
+columnas_originales_atributos,23,"Campos originales del DBF, sin contar geometría"
+crs,EPSG:4326,Sistema de coordenadas leído desde .prj
+epsg,4326,EPSG detectado
+encoding,UTF-8,Encoding indicado en archivo .cpg
+tipos_geometria,Point: 563,Distribución de tipos de geometría
+geometrias_nulas,0,Geometrías nulas
+geometrias_invalidas,0,Geometrías inválidas según shapely
+geometrias_vacias,0,Geometrías vacías
+extent_lonlat,"-80.975932, -18.158166, -69.057076, -0.375355","min_lon, min_lat, max_lon, max_lat"
+coordenadas_fuera_rango_peru_aprox,0,Validación aproximada de coordenadas dentro del rango geográfico de Perú
+xcent_no_coincide_geometria,0,Registros donde XCENT no coincide con longitud geométrica
+ycent_no_coincide_geometria,0,Registros donde YCENT no coincide con latitud geométrica
+ubigeo_nulos,0,Nulos en UBIGEO
+distritos_unicos_ubigeo,495,Número de distritos con al menos una dependencia policial en esta capa
+dependencias_duplicadas_nombre_ubigeo,0,Duplicados exactos por UBIGEO + NOM_COMISA
+estados,NO OPERATIVO: 342; OPERATIVO: 221,Conteo por estado operativo
+fuente_dataset,"Ministerio de Transportes y Comunicaciones (MTC). Programa Nacional de Telecomunicaciones (PRONATEL), febrero de 2022",Fuente declarada en columna FUENTE

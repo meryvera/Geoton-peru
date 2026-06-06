@@ -1,0 +1,25 @@
+﻿variable,significado,tipo_dato_pandas,tipo_recomendado_analisis,nulos,valores_unicos,minimo,maximo,ejemplos,observaciones
+PY_BAN_ANC,Tipo o familia del proyecto de banda ancha asociado a la localidad beneficiaria. Ej.: proyecto regional o proyecto selva.,object,texto,0,2,,,PY_REGIONAL | PY_SELVA,
+NOM_PROYEC,Nombre del proyecto/intervención PRONATEL asociado a la localidad beneficiaria.,object,texto,0,24,,,[REGIONAL][AMAZONAS] | [REGIONAL][ANCASH] | [REGIONAL][APURIMAC] | [REGIONAL][AREQUIPA] | [REGIONAL][AYACUCHO],
+ESTADO_PY,Estado del proyecto asociado a la localidad beneficiaria.,object,texto,0,4,,,"[EN IMPLEMENTACION] | [EN OPERACION] | [REFORMULACION-REGIONAL] | EN PROCESO DE ACTUALIZACION DE LA CAPACIDAD PRESUPUESTAL, LO CUAL VIENE SIENDO COORDINADA ENTRE EL MEF Y MTC",
+POB_2023,Población estimada/reportada para el año 2023 en la localidad o centro poblado.,int64,entero/conteo,0,1330,0,38560,47 | 82 | 52 | 161 | 386,
+IAOS_PY,Cantidad de instituciones abonadas obligatorias o instituciones públicas beneficiarias asociadas al proyecto en la localidad. Mantener como conteo referencial del dataset.,int64,entero/conteo,0,8,0,7,1 | 3 | 2 | 4 | 5,
+IIEE_PY,Cantidad de instituciones educativas beneficiarias reportadas para la localidad.,int64,entero/conteo,0,7,0,6,0 | 2 | 1 | 3 | 6,
+EESS_PY,Cantidad de establecimientos de salud beneficiarios reportados para la localidad.,int64,entero/conteo,0,3,0,2,0 | 1 | 2,
+DP_PY,Cantidad de dependencias policiales/comisarías beneficiarias reportadas para la localidad.,int64,entero/conteo,0,3,0,2,1 | 0 | 2,
+cod_dpto,Código de departamento.,object,texto,0,22,,,01 | 02 | 03 | 04 | 05,Mantener como texto para no perder ceros iniciales.
+nom_dpto,Nombre de departamento.,object,texto,0,22,,,AMAZONAS | ANCASH | APURIMAC | AREQUIPA | AYACUCHO,
+cod_prov,Código de provincia.,object,texto,0,182,,,0101 | 0102 | 0103 | 0104 | 0105,Mantener como texto para no perder ceros iniciales.
+nom_prov,Nombre de provincia.,object,texto,0,182,,,CHACHAPOYAS | BAGUA | BONGARA | CONDORCANQUI | LUYA,
+cod_dist,Código de distrito / UBIGEO distrital.,object,texto,0,1503,,,010101 | 010102 | 010103 | 010104 | 010105,Mantener como texto para no perder ceros iniciales.
+nom_dist,Nombre de distrito.,object,texto,0,1401,,,CHACHAPOYAS | ASUNCION | BALSAS | CHETO | CHILIQUIN,
+cod_ccpp,Código de centro poblado.,object,texto,0,6945,,,0101010002 | 0101010024 | 0101010035 | 0101020001 | 0101030001,Mantener como texto para no perder ceros iniciales.
+nom_ccpp,Nombre del centro poblado/localidad beneficiaria.,object,texto,0,5849,,,CACLIC | TAQUIA | SAN ISIDRO | ASUNCION | BALSAS,
+estado_py_norm,"Estado del proyecto normalizado, sin corchetes externos cuando corresponde.",object,texto,0,4,,,"EN IMPLEMENTACION | EN OPERACION | REFORMULACION-REGIONAL | EN PROCESO DE ACTUALIZACION DE LA CAPACIDAD PRESUPUESTAL, LO CUAL VIENE SIENDO COORDINADA ENTRE EL MEF Y MTC",
+nom_proyecto_norm,"Nombre del proyecto normalizado, sin corchetes externos cuando corresponde.",object,texto,0,24,,,REGIONAL][AMAZONAS | REGIONAL][ANCASH | REGIONAL][APURIMAC | REGIONAL][AREQUIPA | REGIONAL][AYACUCHO,
+total_instituciones_beneficiarias,Suma derivada de IAOS_PY + IIEE_PY + EESS_PY + DP_PY. Usar con cautela porque IAOS podría agrupar instituciones abonadas obligatorias.,int64,entero/conteo,0,12,0,14,2 | 6 | 4 | 8 | 10,
+tiene_poblacion_reportada,"Indicador derivado: 1 si POB_2023 es mayor que 0, 0 si no.",int64,entero/conteo,0,2,0,1,1 | 0,
+geom_type,Tipo de geometría geográfica.,object,texto,0,1,,,Point,
+geom_lon,Longitud extraída desde la geometría del shapefile.,float64,decimal,0,6934,-81.26716621,-68.85280179,-77.9019329 | -77.83325982 | -77.93903607 | -77.71080764 | -78.01960642,
+geom_lat,Latitud extraída desde la geometría del shapefile.,float64,decimal,0,6939,-18.33449882,-1.242621667,-6.200754867 | -6.253471798 | -6.275322761 | -6.032451108 | -6.835787041,
+geometry_wkt,Geometría del punto en formato Well-Known Text.,object,texto,0,6943,,,POINT (-77.901933 -6.200755) | POINT (-77.83326 -6.253472) | POINT (-77.939036 -6.275323) | POINT (-77.710808 -6.032451) | POINT (-78.019606 -6.835787),

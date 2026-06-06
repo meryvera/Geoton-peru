@@ -1,0 +1,28 @@
+﻿variable,significado,tipo_dato_csv,nulos,porcentaje_nulos,valores_unicos,valor_minimo,valor_maximo,ejemplos,observaciones
+OBJECTID,Identificador interno del registro en la capa geográfica.,Int64,0,0.0,3904,1.0,3904.0,1 | 2 | 3,
+COD_DPTO,Código del departamento según la división político-administrativa.,string,0,0.0,22,01,24,03 | 03 | 03,Tratar como texto para preservar ceros iniciales.
+NOM_DPTO,Nombre del departamento.,object,0,0.0,22,,,APURIMAC | APURIMAC | APURIMAC,
+COD_PROV,Código de la provincia.,string,0,0.0,185,0101,2403,0301 | 0301 | 0301,Tratar como texto para preservar ceros iniciales.
+NOM_PROV,Nombre de la provincia.,object,0,0.0,185,,,ABANCAY | ABANCAY | ABANCAY,
+COD_DIST,Código del distrito; equivalente al UBIGEO distrital cuando tiene 6 dígitos.,string,0,0.0,1471,010101,240304,030101 | 030101 | 030101,Tratar como texto para preservar ceros iniciales.
+NOM_DIST,Nombre del distrito.,object,0,0.0,1373,,,ABANCAY | ABANCAY | ABANCAY,
+COD_CCPP,Código del centro poblado asociado al establecimiento de salud.,string,0,0.0,3898,0101010024,2403040009,0301010043 | 0301010012 | 0301010018,Tratar como texto para preservar ceros iniciales.
+NOM_CCPP,Nombre del centro poblado asociado.,object,0,0.0,3465,,,ATUMPATA | HUAYLLABAMBA | MARCAHUASI,
+IDCCPP,Identificador territorial del centro poblado; normalmente coincide con COD_CCPP.,string,0,0.0,3898,0101010024,2403040009,0301010043 | 0301010012 | 0301010018,Tratar como texto para preservar ceros iniciales.
+REGIóN,Nombre de la región/departamento reportado por PRONATEL. Campo textual redundante con NOM_DPTO.,object,0,0.0,22,,,APURIMAC | APURIMAC | APURIMAC,Campo textual redundante útil para validación cruzada con campos NOM_*.
+PROVINCIA,Nombre de provincia reportado por PRONATEL. Campo textual redundante con NOM_PROV.,object,0,0.0,185,,,ABANCAY | ABANCAY | ABANCAY,Campo textual redundante útil para validación cruzada con campos NOM_*.
+DISTRITO,Nombre de distrito reportado por PRONATEL. Campo textual redundante con NOM_DIST.,object,0,0.0,1373,,,ABANCAY | ABANCAY | ABANCAY,Campo textual redundante útil para validación cruzada con campos NOM_*.
+LOCALIDAD,Localidad reportada por PRONATEL.,object,0,0.0,3465,,,ATUMPATA | HUAYLLABAMBA | MARCAHUASI,
+NOM_PROY,Nombre del proyecto/intervención PRONATEL asociado.,object,0,0.0,24,,,[REGIONAL] - [APURIMAC] | [REGIONAL] - [APURIMAC] | [REGIONAL] - [APURIMAC],
+ESTADO,Estado operativo del establecimiento o punto beneficiario: OPERATIVO / NO OPERATIVO.,object,0,0.0,2,,,OPERATIVO | OPERATIVO | OPERATIVO,
+COD_EST,"Código del estado operativo. En este dataset: 1 = OPERATIVO, 2 = NO OPERATIVO.",Int64,0,0.0,2,1.0,2.0,1 | 1 | 1,
+NOM_EST_SL,Nombre del establecimiento de salud.,object,0,0.0,3602,,,ATUMPATA | HUAYLLABAMBA | MARCAHUASI,
+COD_EST_SL,Código del establecimiento de salud.,Int64,0,0.0,3677,0.0,28457.0,8824 | 7689 | 2661,
+FUENTE,Fuente institucional declarada del dato.,object,0,0.0,1,,,"Ministerio de Transportes y Comunicaciones (MTC). Programa Nacional de Telecomunicaciones (PRONATEL), febrero de 2022 | Ministerio de Transportes y Comunicaciones (MTC). Programa Nacional de Telecomunicaciones (PRONATEL), febrero de 2022 | Ministerio de Transportes y Comunicaciones (MTC). Programa Nacional de Telecomunicaciones (PRONATEL), febrero de 2022",
+UBIGEO,Código UBIGEO distrital para cruces territoriales.,string,0,0.0,1471,010101,240304,030101 | 030101 | 030101,Tratar como texto para preservar ceros iniciales.
+XCENT,Longitud declarada en los atributos del dataset.,float64,0,0.0,3898,-81.230589,-68.852802,-72.852087 | -72.91462 | -72.859438,Coordenada en grados decimales WGS84.
+YCENT,Latitud declarada en los atributos del dataset.,float64,0,0.0,3896,-18.334499,-0.098385,-13.650245 | -13.619191 | -13.627715,Coordenada en grados decimales WGS84.
+geom_type,Tipo de geometría extraída del shapefile.,object,0,0.0,1,,,Point | Point | Point,
+geom_lon,Longitud extraída directamente desde la geometría POINT.,float64,0,0.0,3898,-81.230589,-68.852802,-72.852087 | -72.91462 | -72.859438,Coordenada en grados decimales WGS84.
+geom_lat,Latitud extraída directamente desde la geometría POINT.,float64,0,0.0,3896,-18.334499,-0.098385,-13.650245 | -13.619191 | -13.627715,Coordenada en grados decimales WGS84.
+geometry_wkt,Geometría completa en formato Well-Known Text (WKT).,object,0,0.0,3898,,,POINT (-72.852087 -13.650245) | POINT (-72.91462 -13.619191) | POINT (-72.859438 -13.627715),Útil para cargar geometría en herramientas SIG o bases espaciales.
